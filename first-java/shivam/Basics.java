@@ -4,9 +4,10 @@ public class Basics {
     public static void main(String[] args) {
 
         int a = 10; //Integer data type
-        If (a == 10) {
+        if (a == 10) {
             System.out.println("a is equal to 10");
-        } else {
+        }
+        else {
             System.out.println("a is not equal to 10");
         }
 

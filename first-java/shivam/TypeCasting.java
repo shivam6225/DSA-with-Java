@@ -1,5 +1,7 @@
 package shivam;
 
+import java.util.Scanner;
+
 public class TypeCasting {
     public static void main(String[] args) {
         //Type casting is the process of converting one data type into another data type.
@@ -36,8 +38,8 @@ public class TypeCasting {
         //So, the value of 257 will be truncated to 1 because 257-256=1.
         //As it is out of range of byte data type, it will be wrapped around to the range of byte data type.
 
-        byte a = 40;
-        byte b = 50;
+        //byte a = 40;
+        //byte b = 50;
         byte c = 100;
         int d = a*b/c;
         //Here we are performing arithmetic operations on byte data type.
@@ -52,7 +54,7 @@ public class TypeCasting {
         // So, the result of the arithmetic operation is stored in int data type.
 
 
-        byte b = 50;
+        //byte b = 50;
         b = (byte)(b*2);
         //Here we are performing arithmetic operations on byte data type.
         //This is an example of explicit type casting (narrowing) because byte data type
@@ -87,12 +89,12 @@ public class TypeCasting {
         //The result will be 2.5 because one of the operands is double data type
         
 
-        byte b = 42;
-        char c = 'a';
+        //byte b = 42;
+        //char c = 'a';
         short s = 1024;
         int i = 50000;
         float f = 5.67f;
-        double d = 0.1234;
+        //double d = 0.1234;
         double result = (f * b) + (i / c) - (d * s);
         //Here we are performing arithmetic operations on different data types.
         //This is an example of implicit type casting (widening) because double data type
