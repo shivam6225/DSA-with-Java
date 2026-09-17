@@ -51,7 +51,7 @@
 *Location: [`first-java/`](./first-java/)*
 
 #### 📘 Core Concepts
-- [x] JDK, JRE, JVM architecture & bytecode execution ([`Main.java`](./first-java/Main.java))
+- [x] JDK, JRE, JVM architecture & bytecode execution ([`MainArray`](./first-java/Main.java))
 - [x] Primitive Data Types & Literals ([`Primitives.java`](./first-java/shivam/Primitives.java))
 - [x] User Inputs & Scanner usage ([`Inputs.java`](./first-java/shivam/Inputs.java))
 - [x] Basic Control Flow & While Loop ([`Basics.java`](./first-java/shivam/Basics.java))
@@ -332,7 +332,7 @@ DSA-with-Java/
 │   └── SumOfTwoNos.md
 │
 ├── first-java/                         # Java setup, syntax, datatypes & basic questions
-│   ├── Main.java
+│   ├── MainArray.java
 │   └── shivam/
 │       ├── Basics.java
 │       ├── Inputs.java
@@ -360,7 +360,7 @@ DSA-with-Java/
 │       ├── Largest.java
 │       ├── ReverseNumber.java
 │       └── Switch/
-│           ├── Main.java
+│           ├── MainArray.java
 │           └── NestedSwitch.java
 │
 ├── methods/                            # Methods / Functions (In Progress)
