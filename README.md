@@ -2,7 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Progress](https://img.shields.io/badge/Progress-In%20Progress-brightgreen?style=for-the-badge)](#-curriculum--progress-tracker)
-[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-22+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
+[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-70+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 > A structured, end-to-end journey to master **Data Structures and Algorithms** using **Java**, covering fundamental logic building, core linear/non-linear data structures, algorithmic paradigms (divide & conquer, greedy, backtracking, dynamic programming), and competitive programming/interview patterns.
@@ -11,13 +11,13 @@
 
 ## 📊 Roadmap Overview & Progress Dashboard
 
-| Phase | Module / Topic | Status | Solved / Total | Folder |
+| Phase | Module / Topic | Status | Programs / Problems | Folder |
 |:---:|:---|:---:|:---:|:---|
 | **00** | [Flow of Program & Pseudocode](#phase-0-flow-of-program--logic-building) | ✅ Completed | 5 / 5 | [`flow-of-program/`](./flow-of-program/) |
-| **01** | [Java Fundamentals & First Programs](#phase-1-java-fundamentals--first-programs) | ✅ Completed | 16 programs (7 core + 9 problems) | [`first-java/`](./first-java/) |
-| **02** | [Conditionals, Loops & Switch](#phase-2-conditionals-loops--switch-statements) | ✅ Completed | 8 / 8 | [`condition-loops/`](./condition-loops/) |
-| **03** | [Functions / Methods](#phase-3-functions--methods) | 🟡 In Progress | 0 | [`methods/`](./methods/) |
-| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ⏳ Upcoming | 0 | `arrays/` |
+| **01** | [Java Fundamentals & First Programs](#phase-1-java-fundamentals--first-programs) | ✅ Completed | 16 (7 core + 9 questions) | [`first-java/`](./first-java/) |
+| **02** | [Conditionals, Loops & Switch](#phase-2-conditionals-loops--switch-statements) | ✅ Completed | 21 (8 core + 13 questions) | [`condition-loops/`](./condition-loops/) |
+| **03** | [Functions / Methods](#phase-3-functions--methods) | ✅ Completed | 19 (11 core + 8 questions) | [`methods/`](./methods/) |
+| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | 🟡 In Progress | 9 core programs | [`arrays/`](./arrays/) |
 | **05** | [Searching Algorithms](#phase-5-searching-algorithms) | ⏳ Upcoming | 0 | `searching/` |
 | **06** | [Sorting Algorithms](#phase-6-sorting-algorithms) | ⏳ Upcoming | 0 | `sorting/` |
 | **07** | [Strings & Pattern Matching](#phase-7-strings--stringbuilder) | ⏳ Upcoming | 0 | `strings/` |
@@ -51,7 +51,7 @@
 *Location: [`first-java/`](./first-java/)*
 
 #### 📘 Core Concepts
-- [x] JDK, JRE, JVM architecture & bytecode execution ([`MainArray`](./first-java/Main.java))
+- [x] JDK, JRE, JVM architecture & bytecode execution ([`Main.java`](./first-java/Main.java))
 - [x] Primitive Data Types & Literals ([`Primitives.java`](./first-java/shivam/Primitives.java))
 - [x] User Inputs & Scanner usage ([`Inputs.java`](./first-java/shivam/Inputs.java))
 - [x] Basic Control Flow & While Loop ([`Basics.java`](./first-java/shivam/Basics.java))
@@ -75,44 +75,90 @@
 ### Phase 2: Conditionals, Loops & Switch Statements
 *Location: [`condition-loops/`](./condition-loops/)*
 
-#### 📘 Conditionals & Loops
+#### 📘 Core Concepts
 - [x] [Find Largest of Three Numbers](./condition-loops/shivam/Largest.java)
 - [x] [Alphabet Case Check (Lowercase / Uppercase)](./condition-loops/shivam/CharCaseCheck.java)
 - [x] [Nth Fibonacci Number Calculation](./condition-loops/shivam/Fibonacci.java)
 - [x] [Count Digit Occurrences in a Number](./condition-loops/shivam/DigitOccursInANumber.java)
 - [x] [Reverse a Given Number](./condition-loops/shivam/ReverseNumber.java)
 - [x] [Interactive Calculator Loop (runs till 'x' or 'X')](./condition-loops/shivam/Calculator.java)
-
-#### 🔀 Switch Statements
 - [x] [Standard & Enhanced Switch Statements](./condition-loops/shivam/Switch/Main.java)
 - [x] [Nested Switch Statements](./condition-loops/shivam/Switch/NestedSwitch.java)
+
+#### 📝 Practice Questions
+- [x] [Area Calculations of Geometric Shapes](./condition-loops/questions/Area.java)
+- [x] [Armstrong Number Check](./condition-loops/questions/ArmstrongNumberInJava.java)
+- [x] [Difference of Sum and Product of Digits (LeetCode 1281)](./condition-loops/questions/DifferenceOfSumAndProductOfDigits.java)
+- [x] [Factors of a Number](./condition-loops/questions/FactorsOfNum.java)
+- [x] [Fibonacci Series up to N](./condition-loops/questions/Fibonacci.java)
+- [x] [HCF & LCM of Two Numbers](./condition-loops/questions/HCFandLCMofTwoNumbers.java)
+- [x] [Find Largest Number Till User Enters 0](./condition-loops/questions/LargestInputNumberTillZero.java)
+- [x] [Leap Year or Not Check](./condition-loops/questions/LeapOrNot.java)
+- [x] [Palindrome Number Check](./condition-loops/questions/PalindromeNumber.java)
+- [x] [Perfect Number Check](./condition-loops/questions/PerfectNumber.java)
+- [x] [Reverse a String](./condition-loops/questions/ReverseAString.java)
+- [x] [Sum of All Numbers Till User Enters 0](./condition-loops/questions/SumOfAllNumbersTillZero.java)
+- [x] [Vowel or Consonant Check](./condition-loops/questions/VowelorConsonant.java)
 
 ---
 
 ### Phase 3: Functions / Methods
-*Location: [`methods/`](./methods/) — 🟡 In Progress*
-- [ ] Method Definition, Return Types & Parameters
-- [ ] Pass-by-value in Java (Primitive vs Object references)
-- [ ] Scoping (Block, Method & Loop scope)
-- [ ] Shadowing in Java
-- [ ] Variable Length Arguments (Varargs)
-- [ ] Method Overloading
-- [ ] Practice Problems:
-  - [ ] Prime number check method
-  - [ ] Armstrong number check method
-  - [ ] Pythagorean triplet check method
-  - [ ] Factorial & Palindrome methods
+*Location: [`methods/`](./methods/)*
+
+#### 📘 Core Concepts
+- [x] Method Definition, Return Types & Parameters ([`SumFunction.java`](./methods/shivam/SumFunction.java), [`StringExample.java`](./methods/shivam/StringExample.java))
+- [x] Pass-by-value in Java & Object References ([`PassingExample.java`](./methods/shivam/PassingExample.java), [`Swap.java`](./methods/shivam/Swap.java), [`ChangeValue.java`](./methods/shivam/ChangeValue.java))
+- [x] Scoping (Method Scope & Block Scope) ([`Scope.java`](./methods/shivam/Scope.java))
+- [x] Variable Shadowing in Java ([`Shadowing.java`](./methods/shivam/Shadowing.java))
+- [x] Variable Length Arguments / Varargs ([`VarArgs.java`](./methods/shivam/VarArgs.java))
+- [x] Method Overloading with Parameters & Types ([`FunctionOverloading.java`](./methods/shivam/FunctionOverloading.java))
+- [x] Prime Number Check Function ([`PrimeNumber.java`](./methods/shivam/PrimeNumber.java))
+- [x] Print All 3-Digit Armstrong Numbers ([`AllThreeDigitArmstrongNumbers.java`](./methods/shivam/AllThreeDigitArmstrongNumbers.java))
+
+#### 📝 Practice Questions
+- [x] [Maximum and Minimum Among 3 Numbers](./methods/questions/MaxMinIn3Num.java)
+- [x] [Check Even or Odd using Method](./methods/questions/EvenOddFunction.java)
+- [x] [Check Prime Number Function](./methods/questions/PrimeFunction.java)
+- [x] [Print All Prime Numbers in a Range](./methods/questions/PrimeNumbersBetweenRange.java)
+- [x] [Sum of Two Numbers Function](./methods/questions/SumOfTwoNumbers.java)
+- [x] [Factorial of a Number](./methods/questions/Factorial.java)
+- [x] [Check Pythagorean Triplet](./methods/questions/CheckPythagoreanTriplet.java)
+- [x] [Area & Circumference of Circle](./methods/questions/Circle.java)
 
 ---
 
 ### Phase 4: Arrays & ArrayList
-*Location: `arrays/`*
-- [ ] Introduction to 1D Arrays, memory layout, stack vs heap allocation
-- [ ] Multidimensional / 2D Arrays (Matrix representation, jagged arrays)
-- [ ] Dynamic Arrays (`ArrayList<T>`, amortized time complexity)
-- [ ] Array operations: Reverse, Rotate, Subarray generation, Prefix Sum
+*Location: [`arrays/`](./arrays/) — 🟡 In Progress*
+
+#### 📘 Core Concepts & Fundamentals
+- [x] Introduction to 1D Arrays & Memory Allocation ([`MainArray.java`](./arrays/MainArray.java))
+- [x] Array Input & Output using Loops and `Arrays.toString()` ([`Input.java`](./arrays/shivam/Input.java))
+- [x] Passing Arrays to Functions (Call-by-value of reference) ([`ArrayInFunctions.java`](./arrays/shivam/ArrayInFunctions.java))
+- [x] Multidimensional / 2D Arrays (Matrix Representation) ([`MultiDimensionArray.java`](./arrays/shivam/MultiDimensionArray.java))
+- [x] 2D Arrays with Variable Column Sizes (Jagged Arrays) ([`ColNoFixed.java`](./arrays/shivam/ColNoFixed.java))
+- [x] Dynamic Arrays using `ArrayList<Integer>` ([`ArrayListExample.java`](./arrays/shivam/ArrayListExample.java))
+- [x] Multidimensional ArrayList (`ArrayList<ArrayList<Integer>>`) ([`MultiArrayList.java`](./arrays/shivam/MultiArrayList.java))
+- [x] Swap Elements in Array & Array Reversal ([`SwapArray.java`](./arrays/shivam/SwapArray.java))
+- [x] Find Maximum & Range Maximum in an Array ([`MaxInArray.java`](./arrays/shivam/MaxInArray.java))
+
+#### 📝 Practice Questions & Techniques
+- [ ] Running Sum of 1D Array
+- [ ] Richest Customer Wealth (2D Array Sum)
+- [ ] Shuffle the Array
+- [ ] Number of Good Pairs
+- [ ] Smaller Numbers Than Current
+- [ ] Create Target Array in Given Order
+- [ ] Check if the Sentence is Pangram
+- [ ] Count Items Matching a Rule
+- [ ] Find Highest Altitude
+- [ ] Flipping an Image
+- [ ] Matrix Diagonal Sum
+- [ ] Find Numbers with Even Number of Digits (LeetCode 1295)
+- [ ] Transpose Matrix
+- [ ] Spiral Matrix I & II
+- [ ] Set Matrix Zeroes
 - [ ] Two-Pointers technique
-- [ ] Sliding Window technique (Fixed size & Dynamic size)
+- [ ] Sliding Window technique (Fixed & Dynamic size)
 
 ---
 
@@ -324,15 +370,15 @@
 DSA-with-Java/
 ├── README.md                           # Master Progress & Roadmap Tracker
 │
-├── flow-of-program/                    # Flowcharts & Pseudocode logic
+├── flow-of-program/                    # Flowcharts & Pseudocode logic (5)
 │   ├── HCFandLCM.md
 │   ├── InputTillCharX.md
 │   ├── LeapYearOrNot.md
 │   ├── NumberMultiplicationTable.md
 │   └── SumOfTwoNos.md
 │
-├── first-java/                         # Java setup, syntax, datatypes & basic questions
-│   ├── MainArray.java
+├── first-java/                         # Java setup, syntax, datatypes & basic questions (16)
+│   ├── Main.java
 │   └── shivam/
 │       ├── Basics.java
 │       ├── Inputs.java
@@ -351,7 +397,21 @@ DSA-with-Java/
 │           ├── StringPalindrome.java
 │           └── TwoNumOperators.java
 │
-├── condition-loops/                    # Control flow, loops, nested switch & calculators
+├── condition-loops/                    # Control flow, loops, nested switch & practice questions (21)
+│   ├── questions/
+│   │   ├── Area.java
+│   │   ├── ArmstrongNumberInJava.java
+│   │   ├── DifferenceOfSumAndProductOfDigits.java
+│   │   ├── FactorsOfNum.java
+│   │   ├── Fibonacci.java
+│   │   ├── HCFandLCMofTwoNumbers.java
+│   │   ├── LargestInputNumberTillZero.java
+│   │   ├── LeapOrNot.java
+│   │   ├── PalindromeNumber.java
+│   │   ├── PerfectNumber.java
+│   │   ├── ReverseAString.java
+│   │   ├── SumOfAllNumbersTillZero.java
+│   │   └── VowelorConsonant.java
 │   └── shivam/
 │       ├── Calculator.java
 │       ├── CharCaseCheck.java
@@ -360,11 +420,44 @@ DSA-with-Java/
 │       ├── Largest.java
 │       ├── ReverseNumber.java
 │       └── Switch/
-│           ├── MainArray.java
+│           ├── Main.java
 │           └── NestedSwitch.java
 │
-├── methods/                            # Methods / Functions (In Progress)
-├── arrays/                             # 1D/2D arrays, dynamic arrays & sliding window
+├── methods/                            # Functions, scoping, overloading & practice questions (19)
+│   ├── questions/
+│   │   ├── CheckPythagoreanTriplet.java
+│   │   ├── Circle.java
+│   │   ├── EvenOddFunction.java
+│   │   ├── Factorial.java
+│   │   ├── MaxMinIn3Num.java
+│   │   ├── PrimeFunction.java
+│   │   ├── PrimeNumbersBetweenRange.java
+│   │   └── SumOfTwoNumbers.java
+│   └── shivam/
+│       ├── AllThreeDigitArmstrongNumbers.java
+│       ├── ChangeValue.java
+│       ├── FunctionOverloading.java
+│       ├── PassingExample.java
+│       ├── PrimeNumber.java
+│       ├── Scope.java
+│       ├── Shadowing.java
+│       ├── StringExample.java
+│       ├── SumFunction.java
+│       ├── Swap.java
+│       └── VarArgs.java
+│
+├── arrays/                             # 1D/2D arrays, jagged arrays, ArrayList (9 - In Progress)
+│   ├── MainArray.java
+│   └── shivam/
+│       ├── ArrayInFunctions.java
+│       ├── ArrayListExample.java
+│       ├── ColNoFixed.java
+│       ├── Input.java
+│       ├── MaxInArray.java
+│       ├── MultiArrayList.java
+│       ├── MultiDimensionArray.java
+│       └── SwapArray.java
+│
 ├── searching/                          # Linear & Binary Search patterns
 ├── sorting/                            # Cyclic, Merge, Quick & classic sorts
 ├── strings/                            # String algorithms & manipulation
@@ -396,15 +489,20 @@ javac -version
 ### Compiling and Running a Solution
 
 ```bash
-# Example 1: Run a program from first-java questions
-cd first-java/shivam/questions
-javac OddOrEven.java
-java shivam.questions.OddOrEven
+# Example 1: Run an array program
+cd arrays/shivam
+javac MultiDimensionArray.java
+java shivam.MultiDimensionArray
 
-# Example 2: Run a program from condition-loops
-cd condition-loops/shivam
-javac Calculator.java
-java shivam.Calculator
+# Example 2: Run a methods question
+cd methods/questions
+javac PrimeNumbersBetweenRange.java
+java questions.PrimeNumbersBetweenRange
+
+# Example 3: Run a conditionals question
+cd condition-loops/questions
+javac ArmstrongNumberInJava.java
+java questions.ArmstrongNumberInJava
 ```
 
 ---
