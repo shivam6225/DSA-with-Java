@@ -2,7 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Progress](https://img.shields.io/badge/Progress-In%20Progress-brightgreen?style=for-the-badge)](#-curriculum--progress-tracker)
-[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-99+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
+[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-106+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 > A structured, end-to-end journey to master **Data Structures and Algorithms** using **Java**, covering fundamental logic building, core linear/non-linear data structures, algorithmic paradigms (divide & conquer, greedy, backtracking, dynamic programming), and competitive programming/interview patterns.
@@ -17,8 +17,8 @@
 | **01** | [Java Fundamentals & First Programs](#phase-1-java-fundamentals--first-programs) | ✅ Completed | 17 (8 core + 9 questions) | [`first-java/`](./first-java/) |
 | **02** | [Conditionals, Loops & Switch](#phase-2-conditionals-loops--switch-statements) | ✅ Completed | 21 (8 core + 13 questions) | [`condition-loops/`](./condition-loops/) |
 | **03** | [Functions / Methods](#phase-3-functions--methods) | ✅ Completed | 19 (11 core + 8 questions) | [`methods/`](./methods/) |
-| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 18 (9 core + 9 questions) | [`arrays/`](./arrays/) |
-| **05** | [Searching Algorithms (Linear & Binary)](#phase-5-searching-algorithms) | ✅ Completed | 19 (7 linear + 12 binary search) | [`searching/`](./searching/) |
+| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 23 (9 core + 14 questions) | [`arrays/`](./arrays/) |
+| **05** | [Searching Algorithms (Linear & Binary)](#phase-5-searching-algorithms) | ✅ Completed | 21 (7 linear + 14 binary search) | [`searching/`](./searching/) |
 | **06** | [Sorting Algorithms](#phase-6-sorting-algorithms) | ⏳ Upcoming | 0 | `sorting/` |
 | **07** | [Strings & Pattern Matching](#phase-7-strings--stringbuilder) | ⏳ Upcoming | 0 | `strings/` |
 | **08** | [Math & Bit Manipulation](#phase-8-math--bit-manipulation) | ⏳ Upcoming | 0 | `math-and-bit-manipulation/` |
@@ -151,10 +151,13 @@
 - [x] [How Many Numbers Are Smaller Than the Current Number (LeetCode 1365)](./arrays/questions/NumberSmallerThanCurrentNumber.java)
 - [x] [Create Target Array in the Given Order (LeetCode 1389)](./arrays/questions/CreateTargetArrayInGivenOrder.java)
 - [x] [Check if the Sentence Is Pangram (LeetCode 1832)](./arrays/questions/CheckIfSentenceIsPangram.java)
+- [x] [Count Items Matching a Rule (LeetCode 1773)](./arrays/questions/CountItemsMatchingRule.java)
+- [x] [Find the Highest Altitude (LeetCode 1732)](./arrays/questions/FindTheHighestAltitude.java)
+- [x] [Find Numbers with Even Number of Digits (LeetCode 1295)](./arrays/questions/FindNumbersWithEvenNumberDigits.java)
+- [x] [Add to Array-Form of Integer (LeetCode 989)](./arrays/questions/AddToArrayFormInteger.java)
+- [x] [Maximum Population Year (LeetCode 1854)](./arrays/questions/MaximumPossibleYear.java)
 
 #### ⏳ Upcoming Array Topics
-- [ ] Count Items Matching a Rule (LeetCode 1773)
-- [ ] Find Highest Altitude (LeetCode 1732)
 - [ ] Flipping an Image (LeetCode 832)
 - [ ] Matrix Diagonal Sum (LeetCode 1572)
 - [ ] Transpose Matrix (LeetCode 867)
@@ -181,6 +184,8 @@
 *Location: [`searching/binary_search/`](./searching/binary_search/)*
 - [x] Binary Search Implementation on Ascending Sorted Array ([`Main.java`](./searching/binary_search/Main.java))
 - [x] Order-Agnostic Binary Search (Ascending & Descending sorted arrays) ([`OrderAgnosticBinarySearch.java`](./searching/binary_search/OrderAgnosticBinarySearch.java))
+- [x] [Search in Row-wise & Column-wise Sorted 2D Matrix - $O(N + M)$](./searching/binary_search/SearchingInMatrix.java)
+- [x] [Search in Strictly Sorted 2D Matrix - $O(\log(N \times M))$](./searching/binary_search/SearchingInFullySortedArray.java)
 - [x] [Ceiling of a Number (Smallest element >= target)](./searching/binary_search/questions/CeilingOfNumber.java)
 - [x] [Floor of a Number (Greatest element <= target)](./searching/binary_search/questions/FloorOfNumber.java)
 - [x] [Find Smallest Letter Greater Than Target (LeetCode 744)](./searching/binary_search/questions/FindSmallestLetterGreaterThanTarget.java)
@@ -191,7 +196,6 @@
 - [x] [Search in Rotated Sorted Array (LeetCode 33 - handles duplicates & pivots)](./searching/binary_search/questions/SearchInRotatedSortedArray.java)
 - [x] [Find Rotation Count in Rotated Sorted Array](./searching/binary_search/questions/RotatedCountInRotatedArray.java)
 - [x] [Split Array Largest Sum / Painter's Partition (LeetCode 410 - Binary Search on Answer)](./searching/binary_search/questions/SplitArrayLargestSum.java)
-- [ ] Binary Search in 2D / Matrix (Row-wise & Column-wise sorted, Strictly sorted)
 
 ---
 
@@ -467,14 +471,19 @@ DSA-with-Java/
 │       ├── Swap.java
 │       └── VarArgs.java
 │
-├── arrays/                                             # 1D/2D arrays, jagged arrays, ArrayList & LeetCode problems (18)
+├── arrays/                                             # 1D/2D arrays, jagged arrays, ArrayList & LeetCode problems (23)
 │   ├── MainArray.java
 │   ├── questions/
+│   │   ├── AddToArrayFormInteger.java                  # LeetCode 989
 │   │   ├── BuildArrayFromPermutation.java              # LeetCode 1920
 │   │   ├── CheckIfSentenceIsPangram.java               # LeetCode 1832
 │   │   ├── ConcatenationOfArray.java                   # LeetCode 1929
+│   │   ├── CountItemsMatchingRule.java                 # LeetCode 1773
 │   │   ├── CreateTargetArrayInGivenOrder.java          # LeetCode 1389
+│   │   ├── FindNumbersWithEvenNumberDigits.java        # LeetCode 1295
+│   │   ├── FindTheHighestAltitude.java                 # LeetCode 1732
 │   │   ├── KidsWithGreatestNumberOfCandies.java        # LeetCode 1431
+│   │   ├── MaximumPossibleYear.java                    # LeetCode 1854
 │   │   ├── NumberOfGoodPairs.java                      # LeetCode 1512
 │   │   ├── NumberSmallerThanCurrentNumber.java         # LeetCode 1365
 │   │   ├── RunningSumOf1DArray.java                    # LeetCode 1480
@@ -489,7 +498,7 @@ DSA-with-Java/
 │       ├── MultiDimensionArray.java
 │       └── SwapArray.java
 │
-├── searching/                                          # Linear & Binary Search patterns (19)
+├── searching/                                          # Linear & Binary Search patterns (21)
 │   ├── linear_search/
 │   │   ├── FindMinandMaxInArrayUsingSearch.java
 │   │   ├── Main.java
@@ -502,6 +511,8 @@ DSA-with-Java/
 │   └── binary_search/
 │       ├── Main.java
 │       ├── OrderAgnosticBinarySearch.java
+│       ├── SearchingInMatrix.java                      # 2D Matrix (Row & Col Sorted)
+│       ├── SearchingInFullySortedArray.java            # Strictly Sorted 2D Matrix
 │       └── questions/
 │           ├── CeilingOfNumber.java
 │           ├── FindInMountainArray.java                # LeetCode 1095
@@ -520,13 +531,13 @@ DSA-with-Java/
 ├── recursion-and-backtracking/                         # Recursion trees & backtracking problems
 ├── oop/                                                # OOP principles, custom generics & collections
 ├── linked-lists/                                       # Singly, doubly, fast/slow pointers
-├── stacks-and-queues/                                  # Custom implementations & monotonic stacks
-├── trees/                                              # Binary trees, BSTs & traversals
-├── heaps/                                              # Min/Max heap, PriorityQueue, two-heaps
-├── hashing/                                            # HashMaps, HashSets & prefix sum patterns
-├── graphs/                                             # BFS, DFS, Dijkstra, MST, TopoSort
-├── dynamic-programming/                                # 1D, 2D, Knapsack, LCS, LIS, MCM
-└── advanced-dsa/                                       # Trie, DSU, Segment Tree
+├── stacks-and-queues/                  # Custom implementations & monotonic stacks
+├── trees/                              # Binary trees, BSTs & traversals
+├── heaps/                              # Min/Max heap, PriorityQueue, two-heaps
+├── hashing/                            # HashMaps, HashSets & prefix sum patterns
+├── graphs/                             # BFS, DFS, Dijkstra, MST, TopoSort
+├── dynamic-programming/                # 1D, 2D, Knapsack, LCS, LIS, MCM
+└── advanced-dsa/                       # Trie, DSU, Segment Tree
 ```
 
 ---
@@ -544,20 +555,20 @@ javac -version
 ### Compiling and Running a Solution
 
 ```bash
-# Example 1: Run a binary search problem
+# Example 1: Run 2D Matrix Binary Search
+cd searching/binary_search
+javac SearchingInFullySortedArray.java
+java SearchingInFullySortedArray
+
+# Example 2: Run a newly added array question
+cd arrays/questions
+javac FindTheHighestAltitude.java
+java questions.FindTheHighestAltitude
+
+# Example 3: Run a binary search question
 cd searching/binary_search/questions
 javac SearchInRotatedSortedArray.java
 java questions.SearchInRotatedSortedArray
-
-# Example 2: Run an array LeetCode solution
-cd arrays/questions
-javac RunningSumOf1DArray.java
-java questions.RunningSumOf1DArray
-
-# Example 3: Run a linear search question
-cd searching/linear_search/questions
-javac RichestCustomerWealth.java
-java questions.RichestCustomerWealth
 ```
 
 ---
