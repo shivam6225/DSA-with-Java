@@ -2,7 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Progress](https://img.shields.io/badge/Progress-In%20Progress-brightgreen?style=for-the-badge)](#-curriculum--progress-tracker)
-[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-106+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
+[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-122+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 > A structured, end-to-end journey to master **Data Structures and Algorithms** using **Java**, covering fundamental logic building, core linear/non-linear data structures, algorithmic paradigms (divide & conquer, greedy, backtracking, dynamic programming), and competitive programming/interview patterns.
@@ -17,9 +17,9 @@
 | **01** | [Java Fundamentals & First Programs](#phase-1-java-fundamentals--first-programs) | ✅ Completed | 17 (8 core + 9 questions) | [`first-java/`](./first-java/) |
 | **02** | [Conditionals, Loops & Switch](#phase-2-conditionals-loops--switch-statements) | ✅ Completed | 21 (8 core + 13 questions) | [`condition-loops/`](./condition-loops/) |
 | **03** | [Functions / Methods](#phase-3-functions--methods) | ✅ Completed | 19 (11 core + 8 questions) | [`methods/`](./methods/) |
-| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 23 (9 core + 14 questions) | [`arrays/`](./arrays/) |
+| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 29 (9 core + 20 questions) | [`arrays/`](./arrays/) |
 | **05** | [Searching Algorithms (Linear & Binary)](#phase-5-searching-algorithms) | ✅ Completed | 21 (7 linear + 14 binary search) | [`searching/`](./searching/) |
-| **06** | [Sorting Algorithms](#phase-6-sorting-algorithms) | ⏳ Upcoming | 0 | `sorting/` |
+| **06** | [Sorting Algorithms](#phase-6-sorting-algorithms) | 🔄 In Progress | 10 (4 core + 6 questions) | [`sorting/`](./sorting/) |
 | **07** | [Strings & Pattern Matching](#phase-7-strings--stringbuilder) | ⏳ Upcoming | 0 | `strings/` |
 | **08** | [Math & Bit Manipulation](#phase-8-math--bit-manipulation) | ⏳ Upcoming | 0 | `math-and-bit-manipulation/` |
 | **09** | [Recursion & Backtracking](#phase-9-recursion--backtracking) | ⏳ Upcoming | 0 | `recursion-and-backtracking/` |
@@ -156,11 +156,14 @@
 - [x] [Find Numbers with Even Number of Digits (LeetCode 1295)](./arrays/questions/FindNumbersWithEvenNumberDigits.java)
 - [x] [Add to Array-Form of Integer (LeetCode 989)](./arrays/questions/AddToArrayFormInteger.java)
 - [x] [Maximum Population Year (LeetCode 1854)](./arrays/questions/MaximumPossibleYear.java)
+- [x] [Flipping an Image (LeetCode 832)](./arrays/questions/FlippingAnImage.java)
+- [x] [Matrix Diagonal Sum (LeetCode 1572)](./arrays/questions/MatrixDiagonalSum.java)
+- [x] [Transpose Matrix (LeetCode 867)](./arrays/questions/TransposeMatrix.java)
+- [x] [Determine Whether Matrix Can Be Obtained By Rotation (LeetCode 1886)](./arrays/questions/DetermineWhetherRotationMatrix.java)
+- [x] [Find Unique Integers Sum up to Zero (LeetCode 1304)](./arrays/questions/FindUniqueIntegersNSumToZero.java)
+- [x] [Cells with Odd Values in a Matrix (LeetCode 1252)](./arrays/questions/CellsWithOddValueInMatrix.java)
 
 #### ⏳ Upcoming Array Topics
-- [ ] Flipping an Image (LeetCode 832)
-- [ ] Matrix Diagonal Sum (LeetCode 1572)
-- [ ] Transpose Matrix (LeetCode 867)
 - [ ] Spiral Matrix I & II (LeetCode 54, 59)
 - [ ] Set Matrix Zeroes (LeetCode 73)
 - [ ] Two-Pointers & Sliding Window techniques
@@ -200,14 +203,24 @@
 ---
 
 ### Phase 6: Sorting Algorithms
-*Location: `sorting/`*
-- [ ] Bubble Sort (Space & Time complexity analysis, Optimization flag)
-- [ ] Selection Sort
-- [ ] Insertion Sort
-- [ ] Cyclic Sort (Missing Number, Disappeared Numbers, Duplicate Numbers, Set Mismatch, First Missing Positive)
+*Location: [`sorting/`](./sorting/)*
+
+#### 📘 Core Concepts
+- [x] [Bubble Sort (Space & Time complexity analysis, Optimization flag)](./sorting/BubbleSort.java)
+- [x] [Selection Sort](./sorting/SelectionSort.java)
+- [x] [Insertion Sort](./sorting/InsertionSort.java)
+- [x] [Cyclic Sort](./sorting/CyclicSort.java)
 - [ ] Divide & Conquer: Merge Sort (In-place and Out-of-place)
 - [ ] Quick Sort (Pivot selection, Hoare's vs Lomuto's partitioning)
 - [ ] Linear-time Sorting: Counting Sort, Radix Sort
+
+#### 📝 Practice Questions
+- [x] [Missing Number (LeetCode 268)](./sorting/questions/MissingNumber.java)
+- [x] [Find All Numbers Disappeared in an Array (LeetCode 448)](./sorting/questions/FindNumbersDisapperedInArray.java)
+- [x] [Find the Duplicate Number (LeetCode 287)](./sorting/questions/FindTheDuplicateArray.java)
+- [x] [Find All Duplicates in an Array (LeetCode 442)](./sorting/questions/FindAllDuplicatesInArray.java)
+- [x] [Set Mismatch (LeetCode 645)](./sorting/questions/SetMismatch.java)
+- [x] [First Missing Positive (LeetCode 41)](./sorting/questions/FirstMissingPositive.java)
 
 ---
 
@@ -471,23 +484,29 @@ DSA-with-Java/
 │       ├── Swap.java
 │       └── VarArgs.java
 │
-├── arrays/                                             # 1D/2D arrays, jagged arrays, ArrayList & LeetCode problems (23)
+├── arrays/                                             # 1D/2D arrays, jagged arrays, ArrayList & LeetCode problems (29)
 │   ├── MainArray.java
 │   ├── questions/
 │   │   ├── AddToArrayFormInteger.java                  # LeetCode 989
 │   │   ├── BuildArrayFromPermutation.java              # LeetCode 1920
+│   │   ├── CellsWithOddValueInMatrix.java              # LeetCode 1252
 │   │   ├── CheckIfSentenceIsPangram.java               # LeetCode 1832
 │   │   ├── ConcatenationOfArray.java                   # LeetCode 1929
 │   │   ├── CountItemsMatchingRule.java                 # LeetCode 1773
 │   │   ├── CreateTargetArrayInGivenOrder.java          # LeetCode 1389
+│   │   ├── DetermineWhetherRotationMatrix.java         # LeetCode 1886
 │   │   ├── FindNumbersWithEvenNumberDigits.java        # LeetCode 1295
 │   │   ├── FindTheHighestAltitude.java                 # LeetCode 1732
+│   │   ├── FindUniqueIntegersNSumToZero.java           # LeetCode 1304
+│   │   ├── FlippingAnImage.java                        # LeetCode 832
 │   │   ├── KidsWithGreatestNumberOfCandies.java        # LeetCode 1431
+│   │   ├── MatrixDiagonalSum.java                      # LeetCode 1572
 │   │   ├── MaximumPossibleYear.java                    # LeetCode 1854
 │   │   ├── NumberOfGoodPairs.java                      # LeetCode 1512
 │   │   ├── NumberSmallerThanCurrentNumber.java         # LeetCode 1365
 │   │   ├── RunningSumOf1DArray.java                    # LeetCode 1480
-│   │   └── ShuffleTheArray.java                        # LeetCode 1470
+│   │   ├── ShuffleTheArray.java                        # LeetCode 1470
+│   │   └── TransposeMatrix.java                        # LeetCode 867
 │   └── shivam/
 │       ├── ArrayInFunctions.java
 │       ├── ArrayListExample.java
@@ -525,7 +544,18 @@ DSA-with-Java/
 │           ├── SearchInRotatedSortedArray.java         # LeetCode 33
 │           └── SplitArrayLargestSum.java               # LeetCode 410
 │
-├── sorting/                                            # Cyclic, Merge, Quick & classic sorts
+├── sorting/                                            # Cyclic, Merge, Quick & classic sorts (10)
+│   ├── BubbleSort.java
+│   ├── CyclicSort.java
+│   ├── InsertionSort.java
+│   ├── SelectionSort.java
+│   └── questions/
+│       ├── FindAllDuplicatesInArray.java               # LeetCode 442
+│       ├── FindNumbersDisapperedInArray.java           # LeetCode 448
+│       ├── FindTheDuplicateArray.java                  # LeetCode 287
+│       ├── FirstMissingPositive.java                   # LeetCode 41
+│       ├── MissingNumber.java                          # LeetCode 268
+│       └── SetMismatch.java                            # LeetCode 645
 ├── strings/                                            # String algorithms & manipulation
 ├── math-and-bit-manipulation/                          # Bit tricks & number theory
 ├── recursion-and-backtracking/                         # Recursion trees & backtracking problems
