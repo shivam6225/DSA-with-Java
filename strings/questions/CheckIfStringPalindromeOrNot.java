@@ -10,7 +10,10 @@ public class CheckIfStringPalindromeOrNot {
     }
 
     private static boolean isPalindrome(String name) {
-
+        if(name==null || name.length()==0)
+        {
+            return true;
+        }
         name = name.toLowerCase();
         int start = 0;
         int end = name.length()-1;

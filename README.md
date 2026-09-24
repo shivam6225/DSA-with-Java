@@ -2,7 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Progress](https://img.shields.io/badge/Progress-In%20Progress-brightgreen?style=for-the-badge)](#-curriculum--progress-tracker)
-[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-122+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
+[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-135+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 > A structured, end-to-end journey to master **Data Structures and Algorithms** using **Java**, covering fundamental logic building, core linear/non-linear data structures, algorithmic paradigms (divide & conquer, greedy, backtracking, dynamic programming), and competitive programming/interview patterns.
@@ -17,10 +17,10 @@
 | **01** | [Java Fundamentals & First Programs](#phase-1-java-fundamentals--first-programs) | ✅ Completed | 17 (8 core + 9 questions) | [`first-java/`](./first-java/) |
 | **02** | [Conditionals, Loops & Switch](#phase-2-conditionals-loops--switch-statements) | ✅ Completed | 21 (8 core + 13 questions) | [`condition-loops/`](./condition-loops/) |
 | **03** | [Functions / Methods](#phase-3-functions--methods) | ✅ Completed | 19 (11 core + 8 questions) | [`methods/`](./methods/) |
-| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 29 (9 core + 20 questions) | [`arrays/`](./arrays/) |
+| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 33 (9 core + 24 questions) | [`arrays/`](./arrays/) |
 | **05** | [Searching Algorithms (Linear & Binary)](#phase-5-searching-algorithms) | ✅ Completed | 21 (7 linear + 14 binary search) | [`searching/`](./searching/) |
 | **06** | [Sorting Algorithms](#phase-6-sorting-algorithms) | 🔄 In Progress | 10 (4 core + 6 questions) | [`sorting/`](./sorting/) |
-| **07** | [Strings & Pattern Matching](#phase-7-strings--stringbuilder) | ⏳ Upcoming | 0 | `strings/` |
+| **07** | [Strings & Pattern Matching](#phase-7-strings--stringbuilder) | 🔄 In Progress | 9 (8 core + 1 question) | [`strings/`](./strings/) |
 | **08** | [Math & Bit Manipulation](#phase-8-math--bit-manipulation) | ⏳ Upcoming | 0 | `math-and-bit-manipulation/` |
 | **09** | [Recursion & Backtracking](#phase-9-recursion--backtracking) | ⏳ Upcoming | 0 | `recursion-and-backtracking/` |
 | **10** | [Object-Oriented Programming (OOP)](#phase-10-object-oriented-programming-oop-for-dsa) | ⏳ Upcoming | 0 | `oop/` |
@@ -162,6 +162,10 @@
 - [x] [Determine Whether Matrix Can Be Obtained By Rotation (LeetCode 1886)](./arrays/questions/DetermineWhetherRotationMatrix.java)
 - [x] [Find Unique Integers Sum up to Zero (LeetCode 1304)](./arrays/questions/FindUniqueIntegersNSumToZero.java)
 - [x] [Cells with Odd Values in a Matrix (LeetCode 1252)](./arrays/questions/CellsWithOddValueInMatrix.java)
+- [x] [Two Sum (LeetCode 1)](./arrays/questions/TwoSum.java)
+- [x] [Plus One (LeetCode 66)](./arrays/questions/PlusOne.java)
+- [x] [Remove Duplicates from Sorted Array (LeetCode 26)](./arrays/questions/RemoveDuplicateFromSortedArray.java)
+- [x] [Reshape the Matrix (LeetCode 566)](./arrays/questions/ReshapeTheMatrix.java)
 
 #### ⏳ Upcoming Array Topics
 - [ ] Spiral Matrix I & II (LeetCode 54, 59)
@@ -225,11 +229,21 @@
 ---
 
 ### Phase 7: Strings & StringBuilder
-*Location: `strings/`*
-- [ ] String Memory Architecture: String Constant Pool (SCP) & Immutability
-- [ ] `String` vs `StringBuilder` vs `StringBuffer`
-- [ ] Common operations: Palindromes, Anagrams, Substrings, ASCII manipulations
+*Location: [`strings/`](./strings/)*
+
+#### 📘 Core Concepts
+- [x] [String Basics, Memory Architecture & SCP](./strings/StringBasic.java)
+- [x] [String Output & Printing](./strings/StringOutput.java)
+- [x] [Pretty Printing / Formatted Output](./strings/PrettyPrinting.java)
+- [x] [String Comparison (== vs .equals())](./strings/ComparisonString.java)
+- [x] [String Operators & Concatenation](./strings/Operators.java)
+- [x] [Performance of Strings & Immutability](./strings/PerformanceString.java)
+- [x] [StringBuilder (Alternative for Mutability)](./strings/StringBuilderAlternative.java)
+- [x] [String Methods & Manipulations](./strings/MethodsInString.java)
 - [ ] Pattern Searching: Naive, KMP Algorithm, Rabin-Karp Rolling Hash
+
+#### 📝 Practice Questions
+- [x] [Check if String is Palindrome or Not (LeetCode 125)](./strings/questions/CheckIfStringPalindromeOrNot.java)
 
 ---
 
@@ -484,7 +498,7 @@ DSA-with-Java/
 │       ├── Swap.java
 │       └── VarArgs.java
 │
-├── arrays/                                             # 1D/2D arrays, jagged arrays, ArrayList & LeetCode problems (29)
+├── arrays/                                             # 1D/2D arrays, jagged arrays, ArrayList & LeetCode problems (33)
 │   ├── MainArray.java
 │   ├── questions/
 │   │   ├── AddToArrayFormInteger.java                  # LeetCode 989
@@ -504,9 +518,13 @@ DSA-with-Java/
 │   │   ├── MaximumPossibleYear.java                    # LeetCode 1854
 │   │   ├── NumberOfGoodPairs.java                      # LeetCode 1512
 │   │   ├── NumberSmallerThanCurrentNumber.java         # LeetCode 1365
+│   │   ├── PlusOne.java                                # LeetCode 66
+│   │   ├── RemoveDuplicateFromSortedArray.java         # LeetCode 26
+│   │   ├── ReshapeTheMatrix.java                       # LeetCode 566
 │   │   ├── RunningSumOf1DArray.java                    # LeetCode 1480
 │   │   ├── ShuffleTheArray.java                        # LeetCode 1470
-│   │   └── TransposeMatrix.java                        # LeetCode 867
+│   │   ├── TransposeMatrix.java                        # LeetCode 867
+│   │   └── TwoSum.java                                 # LeetCode 1
 │   └── shivam/
 │       ├── ArrayInFunctions.java
 │       ├── ArrayListExample.java
@@ -556,7 +574,17 @@ DSA-with-Java/
 │       ├── FirstMissingPositive.java                   # LeetCode 41
 │       ├── MissingNumber.java                          # LeetCode 268
 │       └── SetMismatch.java                            # LeetCode 645
-├── strings/                                            # String algorithms & manipulation
+├── strings/                                            # String algorithms & manipulation (9)
+│   ├── ComparisonString.java
+│   ├── MethodsInString.java
+│   ├── Operators.java
+│   ├── PerformanceString.java
+│   ├── PrettyPrinting.java
+│   ├── StringBasic.java
+│   ├── StringBuilderAlternative.java
+│   ├── StringOutput.java
+│   └── questions/
+│       └── CheckIfStringPalindromeOrNot.java           # LeetCode 125
 ├── math-and-bit-manipulation/                          # Bit tricks & number theory
 ├── recursion-and-backtracking/                         # Recursion trees & backtracking problems
 ├── oop/                                                # OOP principles, custom generics & collections
