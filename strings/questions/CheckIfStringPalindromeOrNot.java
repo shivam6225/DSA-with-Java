@@ -3,7 +3,7 @@ package questions;
 public class CheckIfStringPalindromeOrNot {
 
     public static void main(String[] args) {
-        String name = "abcba";
+        String name = "shivam";
 
         System.out.println(isPalindrome(name));
 
@@ -26,7 +26,7 @@ public class CheckIfStringPalindromeOrNot {
             end--;
         }
 
-        return start>=end;
+        return true;
     }
 
 
