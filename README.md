@@ -2,7 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Progress](https://img.shields.io/badge/Progress-In%20Progress-brightgreen?style=for-the-badge)](#-curriculum--progress-tracker)
-[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-144+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
+[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-135+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 > A structured, end-to-end journey to master **Data Structures and Algorithms** using **Java**, covering fundamental logic building, core linear/non-linear data structures, algorithmic paradigms (divide & conquer, greedy, backtracking, dynamic programming), and competitive programming/interview patterns.
@@ -15,14 +15,14 @@
 |:---:|:---|:---:|:---:|:---|
 | **00** | [Flow of Program & Pseudocode](#phase-0-flow-of-program--logic-building) | ✅ Completed | 5 / 5 | [`flow-of-program/`](./flow-of-program/) |
 | **01** | [Java Fundamentals & First Programs](#phase-1-java-fundamentals--first-programs) | ✅ Completed | 17 (8 core + 9 questions) | [`first-java/`](./first-java/) |
-| **02** | [Conditionals, Loops & Switch](#phase-2-conditionals-loops--switch-statements) | ✅ Completed | 22 (8 core + 14 questions) | [`condition-loops/`](./condition-loops/) |
+| **02** | [Conditionals, Loops & Switch](#phase-2-conditionals-loops--switch-statements) | ✅ Completed | 21 (8 core + 13 questions) | [`condition-loops/`](./condition-loops/) |
 | **03** | [Functions / Methods](#phase-3-functions--methods) | ✅ Completed | 19 (11 core + 8 questions) | [`methods/`](./methods/) |
-| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 37 (9 core + 28 questions) | [`arrays/`](./arrays/) |
+| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 33 (9 core + 24 questions) | [`arrays/`](./arrays/) |
 | **05** | [Searching Algorithms (Linear & Binary)](#phase-5-searching-algorithms) | ✅ Completed | 21 (7 linear + 14 binary search) | [`searching/`](./searching/) |
 | **06** | [Sorting Algorithms](#phase-6-sorting-algorithms) | 🔄 In Progress | 10 (4 core + 6 questions) | [`sorting/`](./sorting/) |
 | **07** | [Strings & Pattern Matching](#phase-7-strings--stringbuilder) | 🔄 In Progress | 9 (8 core + 1 question) | [`strings/`](./strings/) |
 | **08** | [Math & Bit Manipulation](#phase-8-math--bit-manipulation) | ⏳ Upcoming | 0 | `math-and-bit-manipulation/` |
-| **09** | [Recursion & Backtracking](#phase-9-recursion--backtracking) | 🔄 In Progress | 4 (4 core) | [`recursion/`](./recursion/) |
+| **09** | [Recursion & Backtracking](#phase-9-recursion--backtracking) | ⏳ Upcoming | 0 | `recursion-and-backtracking/` |
 | **10** | [Object-Oriented Programming (OOP)](#phase-10-object-oriented-programming-oop-for-dsa) | ⏳ Upcoming | 0 | `oop/` |
 | **11** | [Linked Lists](#phase-11-linked-lists) | ⏳ Upcoming | 0 | `linked-lists/` |
 | **12** | [Stacks & Queues](#phase-12-stacks--queues) | ⏳ Upcoming | 0 | `stacks-and-queues/` |
@@ -100,10 +100,6 @@
 - [x] [Sum of All Numbers Till User Enters 0](./condition-loops/questions/SumOfAllNumbersTillZero.java)
 - [x] [Vowel or Consonant Check](./condition-loops/questions/VowelorConsonant.java)
 
-#### ⭐ Pattern Printing
-*Location: [`patterns/`](./patterns/)*
-- [x] [Various Star & Number Patterns](./patterns/patternsPractice.java)
-
 ---
 
 ### Phase 3: Functions / Methods
@@ -170,12 +166,9 @@
 - [x] [Plus One (LeetCode 66)](./arrays/questions/PlusOne.java)
 - [x] [Remove Duplicates from Sorted Array (LeetCode 26)](./arrays/questions/RemoveDuplicateFromSortedArray.java)
 - [x] [Reshape the Matrix (LeetCode 566)](./arrays/questions/ReshapeTheMatrix.java)
-- [x] [Maximum Subarray (LeetCode 53)](./arrays/questions/MaximumSubArray.java)
-- [x] [Rotate Array (LeetCode 189)](./arrays/questions/RotateArray.java)
-- [x] [Spiral Matrix I (LeetCode 54)](./arrays/questions/SpiralMatrix.java)
-- [x] [Spiral Matrix II (LeetCode 59)](./arrays/questions/SpiralMatrixII.java)
 
 #### ⏳ Upcoming Array Topics
+- [ ] Spiral Matrix I & II (LeetCode 54, 59)
 - [ ] Set Matrix Zeroes (LeetCode 73)
 - [ ] Two-Pointers & Sliding Window techniques
 
@@ -267,14 +260,10 @@
 ---
 
 ### Phase 9: Recursion & Backtracking
-*Location: [`recursion/`](./recursion/)*
-
-#### 📘 Core Concepts
-- [x] [Call Stack, Base Conditions & Intro (Message)](./recursion/Message.java)
-- [x] [Linear Recursion (Print Numbers)](./recursion/NumRec.java)
-- [x] [Fibonacci Series using Recursion](./recursion/FibonacciRec.java)
-- [x] [Binary Search using Recursion (Divide & Conquer)](./recursion/BinarySearchRec.java)
-- [ ] Recursion with Arrays (Check sorted, Linear Search)
+*Location: `recursion-and-backtracking/`*
+- [ ] Call Stack, Base Conditions & Recursion Trees
+- [ ] Linear Recursion & Divide-and-Conquer
+- [ ] Recursion with Arrays (Check sorted, Linear Search, Binary Search)
 - [ ] Recursion with Strings (Remove characters, Skip strings)
 - [ ] Subset / Subsequence Patterns (Take / Not-take pattern)
 - [ ] Permutations and Combinations
@@ -486,9 +475,6 @@ DSA-with-Java/
 │           ├── Main.java
 │           └── NestedSwitch.java
 │
-├── patterns/                                           # Star and Number patterns (1)
-│   └── patternsPractice.java
-│
 ├── methods/                                            # Functions, scoping, overloading & practice questions (19)
 │   ├── questions/
 │   │   ├── CheckPythagoreanTriplet.java
@@ -512,7 +498,7 @@ DSA-with-Java/
 │       ├── Swap.java
 │       └── VarArgs.java
 │
-├── arrays/                                             # 1D/2D arrays, jagged arrays, ArrayList & LeetCode problems (37)
+├── arrays/                                             # 1D/2D arrays, jagged arrays, ArrayList & LeetCode problems (33)
 │   ├── MainArray.java
 │   ├── questions/
 │   │   ├── AddToArrayFormInteger.java                  # LeetCode 989
@@ -530,17 +516,13 @@ DSA-with-Java/
 │   │   ├── KidsWithGreatestNumberOfCandies.java        # LeetCode 1431
 │   │   ├── MatrixDiagonalSum.java                      # LeetCode 1572
 │   │   ├── MaximumPossibleYear.java                    # LeetCode 1854
-│   │   ├── MaximumSubArray.java                        # LeetCode 53
 │   │   ├── NumberOfGoodPairs.java                      # LeetCode 1512
 │   │   ├── NumberSmallerThanCurrentNumber.java         # LeetCode 1365
 │   │   ├── PlusOne.java                                # LeetCode 66
 │   │   ├── RemoveDuplicateFromSortedArray.java         # LeetCode 26
 │   │   ├── ReshapeTheMatrix.java                       # LeetCode 566
-│   │   ├── RotateArray.java                            # LeetCode 189
 │   │   ├── RunningSumOf1DArray.java                    # LeetCode 1480
 │   │   ├── ShuffleTheArray.java                        # LeetCode 1470
-│   │   ├── SpiralMatrix.java                           # LeetCode 54
-│   │   ├── SpiralMatrixII.java                         # LeetCode 59
 │   │   ├── TransposeMatrix.java                        # LeetCode 867
 │   │   └── TwoSum.java                                 # LeetCode 1
 │   └── shivam/
@@ -604,11 +586,7 @@ DSA-with-Java/
 │   └── questions/
 │       └── CheckIfStringPalindromeOrNot.java           # LeetCode 125
 ├── math-and-bit-manipulation/                          # Bit tricks & number theory
-├── recursion/                                          # Recursion trees & backtracking problems (4)
-│   ├── BinarySearchRec.java
-│   ├── FibonacciRec.java
-│   ├── Message.java
-│   └── NumRec.java
+├── recursion-and-backtracking/                         # Recursion trees & backtracking problems
 ├── oop/                                                # OOP principles, custom generics & collections
 ├── linked-lists/                                       # Singly, doubly, fast/slow pointers
 ├── stacks-and-queues/                  # Custom implementations & monotonic stacks
