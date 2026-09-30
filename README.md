@@ -710,6 +710,19 @@ java questions.SearchInRotatedSortedArray
 
 ## 🏆 LeetCode Questions Solved
 
+### 📊 LeetCode Summary by Topic
+
+| Topic / Phase | Total Questions | Easy 🟢 | Medium 🟡 | Hard 🔴 |
+|:---|:---:|:---:|:---:|:---:|
+| Arrays | 30 | 23 | 7 | 0 |
+| Conditionals/Loops | 1 | 1 | 0 | 0 |
+| Searching | 12 | 9 | 2 | 1 |
+| Sorting | 6 | 3 | 2 | 1 |
+| Strings | 1 | 1 | 0 | 0 |
+| **Total** | **50** | **37** | **11** | **2** |
+
+### 📋 Detailed Questions List
+
 | # | Title | Difficulty | Topic / Phase | Link |
 |:---|:---|:---:|:---|:---|
 | 1 | [Two Sum](./arrays/questions/TwoSum.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/TwoSum.java) |
