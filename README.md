@@ -2,7 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Progress](https://img.shields.io/badge/Progress-In%20Progress-brightgreen?style=for-the-badge)](#-curriculum--progress-tracker)
-[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-145+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
+[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-168+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 > A structured, end-to-end journey to master **Data Structures and Algorithms** using **Java**, covering fundamental logic building, core linear/non-linear data structures, algorithmic paradigms (divide & conquer, greedy, backtracking, dynamic programming), and competitive programming/interview patterns.
@@ -17,11 +17,11 @@
 | **01** | [Java Fundamentals & First Programs](#phase-1-java-fundamentals--first-programs) | ✅ Completed | 17 (8 core + 9 questions) | [`first-java/`](./first-java/) |
 | **02** | [Conditionals, Loops & Switch](#phase-2-conditionals-loops--switch-statements) | ✅ Completed | 22 (8 core + 14 questions) | [`condition-loops/`](./condition-loops/) |
 | **03** | [Functions / Methods](#phase-3-functions--methods) | ✅ Completed | 19 (11 core + 8 questions) | [`methods/`](./methods/) |
-| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 38 (9 core + 29 questions) | [`arrays/`](./arrays/) |
-| **05** | [Searching Algorithms (Linear & Binary)](#phase-5-searching-algorithms) | ✅ Completed | 21 (7 linear + 14 binary search) | [`searching/`](./searching/) |
+| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 39 (9 core + 30 questions) | [`arrays/`](./arrays/) |
+| **05** | [Searching Algorithms (Linear & Binary)](#phase-5-searching-algorithms) | ✅ Completed | 27 (7 linear + 20 binary search) | [`searching/`](./searching/) |
 | **06** | [Sorting Algorithms](#phase-6-sorting-algorithms) | 🔄 In Progress | 10 (4 core + 6 questions) | [`sorting/`](./sorting/) |
 | **07** | [Strings & Pattern Matching](#phase-7-strings--stringbuilder) | 🔄 In Progress | 9 (8 core + 1 question) | [`strings/`](./strings/) |
-| **08** | [Math & Bit Manipulation](#phase-8-math--bit-manipulation) | ⏳ Upcoming | 0 | `math-and-bit-manipulation/` |
+| **08** | [Math & Bit Manipulation](#phase-8-math--bit-manipulation) | 🔄 In Progress | 16 (16 core) | `bitwise/` & `maths/` |
 | **09** | [Recursion & Backtracking](#phase-9-recursion--backtracking) | 🔄 In Progress | 4 (4 core) | [`recursion/`](./recursion/) |
 | **10** | [Object-Oriented Programming (OOP)](#phase-10-object-oriented-programming-oop-for-dsa) | ⏳ Upcoming | 0 | `oop/` |
 | **11** | [Linked Lists](#phase-11-linked-lists) | ⏳ Upcoming | 0 | `linked-lists/` |
@@ -175,6 +175,7 @@
 - [x] [Spiral Matrix I (LeetCode 54)](./arrays/questions/SpiralMatrix.java)
 - [x] [Spiral Matrix II (LeetCode 59)](./arrays/questions/SpiralMatrixII.java)
 - [x] [Sort Colors (LeetCode 75)](./arrays/questions/SortColors.java)
+- [x] [Product of Array Except Self (LeetCode 238)](./arrays/questions/ProductOfArrayExceptSelf.java)
 
 #### ⏳ Upcoming Array Topics
 - [ ] Set Matrix Zeroes (LeetCode 73)
@@ -211,6 +212,12 @@
 - [x] [Search in Rotated Sorted Array (LeetCode 33 - handles duplicates & pivots)](./searching/binary_search/questions/SearchInRotatedSortedArray.java)
 - [x] [Find Rotation Count in Rotated Sorted Array](./searching/binary_search/questions/RotatedCountInRotatedArray.java)
 - [x] [Split Array Largest Sum / Painter's Partition (LeetCode 410 - Binary Search on Answer)](./searching/binary_search/questions/SplitArrayLargestSum.java)
+- [x] [Arranging Coins (LeetCode 441)](./searching/binary_search/questions/ArrangingCoins.java)
+- [x] [First Bad Version (LeetCode 278)](./searching/binary_search/questions/FirstBadVersion.java)
+- [x] [Guess Number Higher or Lower (LeetCode 374)](./searching/binary_search/questions/GuessNumberHigherOrLower.java)
+- [x] [Sqrt(x) (LeetCode 69)](./searching/binary_search/questions/Sqrt_x_.java)
+- [x] [Two Sum II - Input Array Is Sorted (LeetCode 167)](./searching/binary_search/questions/TwoSumII_SortedArray.java)
+- [x] [Valid Perfect Square (LeetCode 367)](./searching/binary_search/questions/ValidPerfectSquare.java)
 
 ---
 
@@ -256,13 +263,27 @@
 ---
 
 ### Phase 8: Math & Bit Manipulation
-*Location: `math-and-bit-manipulation/`*
-- [ ] Bitwise Operators (`&`, `|`, `^`, `~`, `<<`, `>>`, `>>>`)
-- [ ] Bit Manipulation Tricks: Check/Set/Clear/Toggle bit, Check Power of 2, Count Set Bits
-- [ ] Find single non-repeating element(s) with XOR
-- [ ] Subsets generation using Bitmasking
-- [ ] Number Theory: GCD / Euclidean Algorithm, Extended Euclidean
-- [ ] Prime Numbers: Sieve of Eratosthenes, Segmented Sieve
+*Location: [`bitwise/`](./bitwise/) & [`maths/`](./maths/)*
+
+#### 📘 Bitwise Operators & Tricks
+- [x] [Odd or Even using Bitwise AND](./bitwise/OddOrEvenBit.java)
+- [x] [Find number that is not repeating twice](./bitwise/FindNumberThatIsNotRepeatingTwice.java)
+- [x] [Find number that is not repeating N odd times](./bitwise/FindNumberThatIsNotRepeatingNOddTimes.java)
+- [x] [Kth Bit of a Number](./bitwise/KthBitOfNumber.java)
+- [x] [Nth Magic Number](./bitwise/NthMagicNumber.java)
+- [x] [Number of Digits in Base B](./bitwise/NumberOfDigitsInBaseB.java)
+- [x] [Power of a Number](./bitwise/Power.java)
+- [x] [Check if Power of 2](./bitwise/PowerOf2.java)
+- [x] [Count Set Bits](./bitwise/CountSetBits.java)
+- [x] [XOR between a Range](./bitwise/XORBetweenRange.java)
+
+#### 📘 Mathematics for DSA
+- [x] [Prime Number Check](./maths/PrimeNumberOrNot.java)
+- [x] [Find all Prime Numbers in Range (Sieve of Eratosthenes)](./maths/FindAllPrimeNumberInRange_Sieve.java)
+- [x] [Factors of a Number](./maths/FactorOfNumber.java)
+- [x] [GCD and LCM](./maths/GCD_LCM.java)
+- [x] [Square Root of a Number with Precision](./maths/FindSqrtofNumberWithPrecision.java)
+- [x] [Square Root using Newton Raphson Method](./maths/FindSqrtNewtonRaphsonMethod.java)
 - [ ] Fast Exponentiation (Binary Exponentiation) & Modular Arithmetic
 
 ---
@@ -535,6 +556,7 @@ DSA-with-Java/
 │   │   ├── NumberOfGoodPairs.java                      # LeetCode 1512
 │   │   ├── NumberSmallerThanCurrentNumber.java         # LeetCode 1365
 │   │   ├── PlusOne.java                                # LeetCode 66
+│   │   ├── ProductOfArrayExceptSelf.java               # LeetCode 238
 │   │   ├── RemoveDuplicateFromSortedArray.java         # LeetCode 26
 │   │   ├── ReshapeTheMatrix.java                       # LeetCode 566
 │   │   ├── RotateArray.java                            # LeetCode 189
@@ -571,16 +593,22 @@ DSA-with-Java/
 │       ├── SearchingInMatrix.java                      # 2D Matrix (Row & Col Sorted)
 │       ├── SearchingInFullySortedArray.java            # Strictly Sorted 2D Matrix
 │       └── questions/
+│           ├── ArrangingCoins.java                     # LeetCode 441
 │           ├── CeilingOfNumber.java
 │           ├── FindInMountainArray.java                # LeetCode 1095
 │           ├── FindPositionOfElementInSortedArrayInfiniteNumbers.java
 │           ├── FindSmallestLetterGreaterThanTarget.java # LeetCode 744
+│           ├── FirstBadVersion.java                    # LeetCode 278
 │           ├── FirstLastPositionOfElementInSortedArray.java # LeetCode 34
 │           ├── FloorOfNumber.java
+│           ├── GuessNumberHigherOrLower.java           # LeetCode 374
 │           ├── PeakElementInArray.java                 # LeetCode 852
 │           ├── RotatedCountInRotatedArray.java
 │           ├── SearchInRotatedSortedArray.java         # LeetCode 33
-│           └── SplitArrayLargestSum.java               # LeetCode 410
+│           ├── SplitArrayLargestSum.java               # LeetCode 410
+│           ├── Sqrt_x_.java                            # LeetCode 69
+│           ├── TwoSumII_SortedArray.java               # LeetCode 167
+│           └── ValidPerfectSquare.java                 # LeetCode 367
 │
 ├── sorting/                                            # Cyclic, Merge, Quick & classic sorts (10)
 │   ├── BubbleSort.java
@@ -605,7 +633,24 @@ DSA-with-Java/
 │   ├── StringOutput.java
 │   └── questions/
 │       └── CheckIfStringPalindromeOrNot.java           # LeetCode 125
-├── math-and-bit-manipulation/                          # Bit tricks & number theory
+├── bitwise/                                            # Bitwise operators and magic numbers (10)
+│   ├── CountSetBits.java
+│   ├── FindNumberThatIsNotRepeatingNOddTimes.java
+│   ├── FindNumberThatIsNotRepeatingTwice.java
+│   ├── KthBitOfNumber.java
+│   ├── NthMagicNumber.java
+│   ├── NumberOfDigitsInBaseB.java
+│   ├── OddOrEvenBit.java
+│   ├── Power.java
+│   ├── PowerOf2.java
+│   └── XORBetweenRange.java
+├── maths/                                              # Mathematics for DSA (6)
+│   ├── FactorOfNumber.java
+│   ├── FindAllPrimeNumberInRange_Sieve.java
+│   ├── FindSqrtNewtonRaphsonMethod.java
+│   ├── FindSqrtofNumberWithPrecision.java
+│   ├── GCD_LCM.java
+│   └── PrimeNumberOrNot.java
 ├── recursion/                                          # Recursion trees & backtracking problems (4)
 │   ├── BinarySearchRec.java
 │   ├── FibonacciRec.java
@@ -662,3 +707,58 @@ java questions.SearchInRotatedSortedArray
 ---
 
 ⭐ *Feel free to star this repository to track the journey!*
+
+## 🏆 LeetCode Questions Solved
+
+| # | Title | Difficulty | Topic / Phase | Link |
+|:---|:---|:---:|:---|:---|
+| 1 | [Two Sum](./arrays/questions/TwoSum.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/TwoSum.java) |
+| 26 | [Remove Duplicates from Sorted Array](./arrays/questions/RemoveDuplicateFromSortedArray.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/RemoveDuplicateFromSortedArray.java) |
+| 34 | [Find First and Last Position of Element in Sorted Array](./searching/binary_search/questions/FirstLastPositionOfElementInSortedArray.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/FirstLastPositionOfElementInSortedArray.java) |
+| 41 | [First Missing Positive](./sorting/questions/FirstMissingPositive.java) | Hard 🔴 | Sorting | [Solution](./sorting/questions/FirstMissingPositive.java) |
+| 53 | [Maximum Subarray](./arrays/questions/MaximumSubArray.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/MaximumSubArray.java) |
+| 54 | [Spiral Matrix I](./arrays/questions/SpiralMatrix.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/SpiralMatrix.java) |
+| 59 | [Spiral Matrix II](./arrays/questions/SpiralMatrixII.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/SpiralMatrixII.java) |
+| 66 | [Plus One](./arrays/questions/PlusOne.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/PlusOne.java) |
+| 69 | [Sqrt(x)](./searching/binary_search/questions/Sqrt_x_.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/Sqrt_x_.java) |
+| 75 | [Sort Colors](./arrays/questions/SortColors.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/SortColors.java) |
+| 125 | [Check if String is Palindrome or Not](./strings/questions/CheckIfStringPalindromeOrNot.java) | Easy 🟢 | Strings | [Solution](./strings/questions/CheckIfStringPalindromeOrNot.java) |
+| 167 | [Two Sum II - Input Array Is Sorted](./searching/binary_search/questions/TwoSumII_SortedArray.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/TwoSumII_SortedArray.java) |
+| 189 | [Rotate Array](./arrays/questions/RotateArray.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/RotateArray.java) |
+| 238 | [Product of Array Except Self](./arrays/questions/ProductOfArrayExceptSelf.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/ProductOfArrayExceptSelf.java) |
+| 268 | [Missing Number](./sorting/questions/MissingNumber.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/MissingNumber.java) |
+| 278 | [First Bad Version](./searching/binary_search/questions/FirstBadVersion.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/FirstBadVersion.java) |
+| 287 | [Find the Duplicate Number](./sorting/questions/FindTheDuplicateArray.java) | Medium 🟡 | Sorting | [Solution](./sorting/questions/FindTheDuplicateArray.java) |
+| 367 | [Valid Perfect Square](./searching/binary_search/questions/ValidPerfectSquare.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/ValidPerfectSquare.java) |
+| 374 | [Guess Number Higher or Lower](./searching/binary_search/questions/GuessNumberHigherOrLower.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/GuessNumberHigherOrLower.java) |
+| 441 | [Arranging Coins](./searching/binary_search/questions/ArrangingCoins.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/ArrangingCoins.java) |
+| 442 | [Find All Duplicates in an Array](./sorting/questions/FindAllDuplicatesInArray.java) | Medium 🟡 | Sorting | [Solution](./sorting/questions/FindAllDuplicatesInArray.java) |
+| 448 | [Find All Numbers Disappeared in an Array](./sorting/questions/FindNumbersDisapperedInArray.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/FindNumbersDisapperedInArray.java) |
+| 566 | [Reshape the Matrix](./arrays/questions/ReshapeTheMatrix.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/ReshapeTheMatrix.java) |
+| 645 | [Set Mismatch](./sorting/questions/SetMismatch.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/SetMismatch.java) |
+| 744 | [Find Smallest Letter Greater Than Target](./searching/binary_search/questions/FindSmallestLetterGreaterThanTarget.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/FindSmallestLetterGreaterThanTarget.java) |
+| 832 | [Flipping an Image](./arrays/questions/FlippingAnImage.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/FlippingAnImage.java) |
+| 852 | [Peak Index in a Mountain Array](./searching/binary_search/questions/PeakElementInArray.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/PeakElementInArray.java) |
+| 867 | [Transpose Matrix](./arrays/questions/TransposeMatrix.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/TransposeMatrix.java) |
+| 989 | [Add to Array-Form of Integer](./arrays/questions/AddToArrayFormInteger.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/AddToArrayFormInteger.java) |
+| 1095 | [Find in Mountain Array](./searching/binary_search/questions/FindInMountainArray.java) | Hard 🔴 | Searching | [Solution](./searching/binary_search/questions/FindInMountainArray.java) |
+| 1252 | [Cells with Odd Values in a Matrix](./arrays/questions/CellsWithOddValueInMatrix.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/CellsWithOddValueInMatrix.java) |
+| 1281 | [Difference of Sum and Product of Digits](./condition-loops/questions/DifferenceOfSumAndProductOfDigits.java) | Easy 🟢 | Conditionals/Loops | [Solution](./condition-loops/questions/DifferenceOfSumAndProductOfDigits.java) |
+| 1295 | [Find Numbers with Even Number of Digits](./arrays/questions/FindNumbersWithEvenNumberDigits.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/FindNumbersWithEvenNumberDigits.java) |
+| 1295 | [Find Numbers with Even Number of Digits](./searching/linear_search/questions/FindNumbersWithEvenNumberOfDigits.java) | Easy 🟢 | Searching | [Solution](./searching/linear_search/questions/FindNumbersWithEvenNumberOfDigits.java) |
+| 1304 | [Find Unique Integers Sum up to Zero](./arrays/questions/FindUniqueIntegersNSumToZero.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/FindUniqueIntegersNSumToZero.java) |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](./arrays/questions/NumberSmallerThanCurrentNumber.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/NumberSmallerThanCurrentNumber.java) |
+| 1389 | [Create Target Array in the Given Order](./arrays/questions/CreateTargetArrayInGivenOrder.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/CreateTargetArrayInGivenOrder.java) |
+| 1431 | [Kids With the Greatest Number of Candies](./arrays/questions/KidsWithGreatestNumberOfCandies.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/KidsWithGreatestNumberOfCandies.java) |
+| 1470 | [Shuffle the Array](./arrays/questions/ShuffleTheArray.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/ShuffleTheArray.java) |
+| 1480 | [Running Sum of 1D Array](./arrays/questions/RunningSumOf1DArray.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/RunningSumOf1DArray.java) |
+| 1512 | [Number of Good Pairs](./arrays/questions/NumberOfGoodPairs.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/NumberOfGoodPairs.java) |
+| 1572 | [Matrix Diagonal Sum](./arrays/questions/MatrixDiagonalSum.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/MatrixDiagonalSum.java) |
+| 1672 | [Richest Customer Wealth](./searching/linear_search/questions/RichestCustomerWealth.java) | Easy 🟢 | Searching | [Solution](./searching/linear_search/questions/RichestCustomerWealth.java) |
+| 1732 | [Find the Highest Altitude](./arrays/questions/FindTheHighestAltitude.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/FindTheHighestAltitude.java) |
+| 1773 | [Count Items Matching a Rule](./arrays/questions/CountItemsMatchingRule.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/CountItemsMatchingRule.java) |
+| 1832 | [Check if the Sentence Is Pangram](./arrays/questions/CheckIfSentenceIsPangram.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/CheckIfSentenceIsPangram.java) |
+| 1854 | [Maximum Population Year](./arrays/questions/MaximumPossibleYear.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/MaximumPossibleYear.java) |
+| 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](./arrays/questions/DetermineWhetherRotationMatrix.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/DetermineWhetherRotationMatrix.java) |
+| 1920 | [Build Array from Permutation](./arrays/questions/BuildArrayFromPermutation.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/BuildArrayFromPermutation.java) |
+| 1929 | [Concatenation of Array](./arrays/questions/ConcatenationOfArray.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/ConcatenationOfArray.java) |
