@@ -1,7 +1,7 @@
-package questions;
+package binary_search.questions;
 
 public class SingleElementInSortedArray {
-    
+
         public int singleNonDuplicate(int[] nums) {
 
             if(nums.length==1) {
