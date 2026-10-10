@@ -2,7 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Progress](https://img.shields.io/badge/Progress-In%20Progress-brightgreen?style=for-the-badge)](#-curriculum--progress-tracker)
-[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-228+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
+[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-243+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 > A structured, end-to-end journey to master **Data Structures and Algorithms** using **Java**, covering fundamental logic building, core linear/non-linear data structures, algorithmic paradigms (divide & conquer, greedy, backtracking, dynamic programming), and competitive programming/interview patterns.
@@ -17,13 +17,13 @@
 | **01** | [Java Fundamentals & First Programs](#phase-1-java-fundamentals--first-programs) | ✅ Completed | 17 (8 core + 9 questions) | [`first-java/`](./first-java/) |
 | **02** | [Conditionals, Loops & Switch](#phase-2-conditionals-loops--switch-statements) | ✅ Completed | 22 (8 core + 14 questions) | [`condition-loops/`](./condition-loops/) |
 | **03** | [Functions / Methods](#phase-3-functions--methods) | ✅ Completed | 19 (11 core + 8 questions) | [`methods/`](./methods/) |
-| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 41 (9 core + 32 questions) | [`arrays/`](./arrays/) |
-| **05** | [Searching Algorithms (Linear & Binary)](#phase-5-searching-algorithms) | ✅ Completed | 42 (11 linear + 31 binary search) | [`searching/`](./searching/) |
+| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 43 (9 core + 34 questions) | [`arrays/`](./arrays/) |
+| **05** | [Searching Algorithms (Linear & Binary)](#phase-5-searching-algorithms) | ✅ Completed | 43 (11 linear + 32 binary search) | [`searching/`](./searching/) |
 | **06** | [Sorting Algorithms](#phase-6-sorting-algorithms) | 🔄 In Progress | 10 (4 core + 6 questions) | [`sorting/`](./sorting/) |
 | **07** | [Strings & Pattern Matching](#phase-7-strings--stringbuilder) | 🔄 In Progress | 9 (8 core + 1 question) | [`strings/`](./strings/) |
 | **08** | [Math & Bit Manipulation](#phase-8-math--bit-manipulation) | 🔄 In Progress | 16 (16 core) | `bitwise/` & `maths/` |
 | **09** | [Recursion & Backtracking](#phase-9-recursion--backtracking) | 🔄 In Progress | 36 (36 core/questions) | [`recursion/`](./recursion/) |
-| **10** | [Object-Oriented Programming (OOP)](#phase-10-object-oriented-programming-oop-for-dsa) | 🔄 In Progress | 13 (13 core) | [`oop/`](./oop/) |
+| **10** | [Object-Oriented Programming (OOP)](#phase-10-object-oriented-programming-oop-for-dsa) | 🔄 In Progress | 25 (25 core) | [`oop/`](./oop/) |
 | **11** | [Linked Lists](#phase-11-linked-lists) | ⏳ Upcoming | 0 | `linked-lists/` |
 | **12** | [Stacks & Queues](#phase-12-stacks--queues) | ⏳ Upcoming | 0 | `stacks-and-queues/` |
 | **13** | [Trees & Binary Search Trees](#phase-13-trees--binary-search-trees-bst) | ⏳ Upcoming | 0 | `trees/` |
@@ -178,6 +178,8 @@
 - [x] [Product of Array Except Self (LeetCode 238)](./arrays/questions/ProductOfArrayExceptSelf.java)
 - [x] [Minimum Cost to Move Chips to The Same Position (LeetCode 1217)](./arrays/questions/MinimumCostToMoveChipsToSamePosition.java)
 - [x] [Check If It Is a Good Array (LeetCode 1250)](./arrays/questions/CheckIfItsGoodArray.java)
+- [x] [Fair Candy Swap (LeetCode 888)](./arrays/questions/FairCandySwap.java)
+- [x] [Special Array With X Elements Greater Than or Equal X (LeetCode 1608)](./arrays/questions/SpecialArrayWithXElementsGreaterEqualX.java)
 
 #### ⏳ Upcoming Array Topics
 - [ ] Set Matrix Zeroes (LeetCode 73)
@@ -235,6 +237,7 @@
 - [x] [Search a 2D Matrix (LeetCode 74)](./searching/binary_search/questions/SearchA2DMatrix.java)
 - [x] [Search in Rotated Sorted Array II (LeetCode 81)](./searching/binary_search/questions/SearchInRotatedSortedArrayII.java)
 - [x] [Single Element in a Sorted Array (LeetCode 540)](./searching/binary_search/questions/SingleElementInSortedArray.java)
+- [x] [Kth Missing Positive Number (LeetCode 1539)](./searching/binary_search/questions/KthMissingPositiveInteger.java)
 
 ---
 
@@ -364,8 +367,8 @@
 - [x] Singleton Class implementation ([`singleton/`](./oop/singleton/))
 - [ ] Four Pillars of OOP:
   - [ ] Encapsulation
-  - [ ] Inheritance (Single, Multilevel, Hierarchical)
-  - [ ] Polymorphism (Compile-time vs Run-time)
+  - [x] Inheritance (Single, Multilevel, Hierarchical) ([`Properties/Inheritance/`](./oop/Properties/Inheritance/))
+  - [x] Polymorphism (Compile-time vs Run-time) ([`Properties/Polymorphism/`](./oop/Properties/Polymorphism/))
   - [ ] Abstraction (Abstract Classes & Interfaces)
 - [ ] Generics (`<T>`) & Custom generic data structures
 - [ ] Exception Handling & Collections Framework architecture
@@ -738,6 +741,21 @@ DSA-with-Java/
 │   │   ├── Main.java
 │   │   ├── Student.java
 │   │   └── WrapperExample.java
+│   ├── Properties/
+│   │   ├── Inheritance/
+│   │   │   ├── Box.java
+│   │   │   ├── BoxColor.java
+│   │   │   ├── BoxPrice.java
+│   │   │   ├── BoxWeight.java
+│   │   │   └── Main.java
+│   │   └── Polymorphism/
+│   │       ├── Circle.java
+│   │       ├── Main.java
+│   │       ├── Numbers.java
+│   │       ├── ObjectPrint.java
+│   │       ├── Shapes.java
+│   │       ├── Square.java
+│   │       └── Triangle.java
 │   ├── packages/
 │   │   ├── Greeting.java
 │   │   └── Message.java
@@ -806,13 +824,13 @@ java questions.SearchInRotatedSortedArray
 
 | Topic / Phase | Total Questions | Easy 🟢 | Medium 🟡 | Hard 🔴 |
 |:---|:---:|:---:|:---:|:---:|
-| Arrays | 32 | 24 | 7 | 1 |
+| Arrays | 34 | 26 | 7 | 1 |
 | Conditionals/Loops | 1 | 1 | 0 | 0 |
 | Recursion | 3 | 1 | 1 | 1 |
-| Searching | 27 | 15 | 11 | 1 |
+| Searching | 28 | 16 | 11 | 1 |
 | Sorting | 6 | 3 | 2 | 1 |
 | Strings | 1 | 1 | 0 | 0 |
-| **Total** | **70** | **45** | **21** | **4** |
+| **Total** | **73** | **48** | **21** | **4** |
 ### 📋 Detailed Questions List
 
 | # | Title | Difficulty | Topic / Phase | Link |
@@ -858,6 +876,7 @@ java questions.SearchInRotatedSortedArray
 | 852 | [Peak Index in a Mountain Array](./searching/binary_search/questions/PeakIndexInMountainArray.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/PeakIndexInMountainArray.java) |
 | 867 | [Transpose Matrix](./arrays/questions/TransposeMatrix.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/TransposeMatrix.java) |
 | 875 | [Koko Eating Bananas](./searching/binary_search/questions/KokoEatingBanana.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/KokoEatingBanana.java) |
+| 888 | [Fair Candy Swap](./arrays/questions/FairCandySwap.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/FairCandySwap.java) |
 | 989 | [Add to Array-Form of Integer](./arrays/questions/AddToArrayFormInteger.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/AddToArrayFormInteger.java) |
 | 1011 | [Capacity To Ship Packages Within D Days](./searching/binary_search/questions/CapacityToShipPackageWithinDDays.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/CapacityToShipPackageWithinDDays.java) |
 | 1095 | [Find in Mountain Array](./searching/binary_search/questions/FindInMountainArray.java) | Hard 🔴 | Searching | [Solution](./searching/binary_search/questions/FindInMountainArray.java) |
@@ -877,7 +896,9 @@ java questions.SearchInRotatedSortedArray
 | 1470 | [Shuffle the Array](./arrays/questions/ShuffleTheArray.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/ShuffleTheArray.java) |
 | 1480 | [Running Sum of 1D Array](./arrays/questions/RunningSumOf1DArray.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/RunningSumOf1DArray.java) |
 | 1512 | [Number of Good Pairs](./arrays/questions/NumberOfGoodPairs.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/NumberOfGoodPairs.java) |
+| 1539 | [Kth Missing Positive Number](./searching/binary_search/questions/KthMissingPositiveInteger.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/KthMissingPositiveInteger.java) |
 | 1572 | [Matrix Diagonal Sum](./arrays/questions/MatrixDiagonalSum.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/MatrixDiagonalSum.java) |
+| 1608 | [Special Array With X Elements Greater Than or Equal X](./arrays/questions/SpecialArrayWithXElementsGreaterEqualX.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/SpecialArrayWithXElementsGreaterEqualX.java) |
 | 1672 | [Richest Customer Wealth](./searching/linear_search/questions/RichestCustomerWealth.java) | Easy 🟢 | Searching | [Solution](./searching/linear_search/questions/RichestCustomerWealth.java) |
 | 1732 | [Find the Highest Altitude](./arrays/questions/FindTheHighestAltitude.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/FindTheHighestAltitude.java) |
 | 1773 | [Count Items Matching a Rule](./arrays/questions/CountItemsMatchingRule.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/CountItemsMatchingRule.java) |
