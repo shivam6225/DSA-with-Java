@@ -1,5 +1,7 @@
 package SinglyLL;
 
+import questions.ReverseLinkedList;
+
 public class LL {
 
     private Node head;
@@ -67,6 +69,23 @@ public class LL {
         Node node = new Node(val,temp.next);
         temp.next = node;
         size++;
+    }
+
+    //insert using recursion
+    public void insertRecursion(int val,int idx){
+        head = insertRecursion(val,idx,head);
+    }
+
+    private Node insertRecursion(int val , int index , Node node){
+        if(index==0){
+            Node temp = new Node(val,node);
+            size++;
+            return temp;
+        }
+
+        node.next = insertRecursion(val,index-1,node.next);
+
+        return node;
     }
 
     public int deleteFirst(){
@@ -148,4 +167,120 @@ public class LL {
     public int length(){
         return size;
     }
+
+    public void BubbleSort(){
+        bubbleSort(size-1,0);
+    }
+
+    private void bubbleSort(int row , int col){
+
+        if(row==0){
+            return;
+        }
+
+        if(col<row){
+            Node first = get(col);
+            Node second = get(col+1);
+
+            if(first.val>second.val){
+                if(first==head){
+                    head = second;
+                    first.next = second.next;
+                    second.next=first;
+                }
+
+                else if(second==tail){
+                    Node prev = get(col-1);
+                    prev.next = second;
+                    tail=first;
+                    first.next = null;
+                    second.next = tail;
+                }
+
+                else{
+                    Node prev = get(col-1);
+                    prev.next = second;
+                    first.next = second.next;
+                    second.next = first;
+                }
+            }
+           bubbleSort(row,col+1);
+        }
+        else{
+            bubbleSort(row-1,0);
+        }
+
+    }
+
+    private void reverse(Node node){
+        if(node == tail){
+            head = tail;
+            return;
+        }
+
+        reverse(node.next);
+
+        tail.next = node;
+        tail = node;
+        tail.next = null;
+    }
+
+    private Node reverseInPlace(){
+        if(head==null||head.next==null) return head;
+        Node prev = null;
+        Node present = head;
+        Node next = head.next;
+
+        while(present!=null){
+            present.next = prev;
+            prev = present;
+            present = next;
+            if(next!=null){
+                next=next.next;
+            }
+        }
+
+        return prev;
+    }
+
+    public void reverseBetween(Node head, int left, int right){
+        if(left==right) return;
+
+        //skip first left-1 nodes
+
+        Node present = head;
+        Node prev = null;
+
+        for(int i=0;present!=null && i<left-1;i++){
+            prev = present;
+            present = present.next;
+        }
+
+        Node last = prev;
+        Node newEnd = present;
+        Node next = present.next;
+
+        //reverse between left and right
+
+        for(int i=0;i<(right-left+1) && present!=null ;i++){
+            present.next = prev;
+            prev = present;
+            present = next;
+            if(next!=null){
+                next=next.next;
+            }
+        }
+
+        if(last!=null){
+            last.next=prev;
+        }
+        else{
+            head = prev;
+        }
+
+        newEnd.next = present;
+
+    }
+
+
 }

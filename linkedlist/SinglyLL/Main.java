@@ -34,5 +34,14 @@ public class Main {
         list.display();
 
         System.out.println(list.find(34));
+
+        list.insertRecursion(22,2);
+        list.display();
+
+        System.out.println(list.length());
+
+        list.BubbleSort();
+
+        list.display();
     }
 }
