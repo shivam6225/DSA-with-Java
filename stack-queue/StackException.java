@@ -1,7 +1,6 @@
-package PACKAGE_NAME;
+public class StackException extends Exception {
+    public StackException(String message) {
 
-public class StackException extends RuntimeException {
-  public StackException(String message) {
-    super(message);
-  }
+        super(message);
+    }
 }

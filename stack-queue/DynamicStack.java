@@ -1,4 +1,25 @@
-package PACKAGE_NAME;
+public class DynamicStack extends CustomStack{
 
-public class DynamicStack {
+    public DynamicStack() {
+        super();
+    }
+
+    public DynamicStack(int size) {
+        super(size);
+    }
+
+    @Override
+    public boolean push(int value){
+        if(isFull()){
+            int[] temp = new int[data.length*2];
+            //copy all items
+            for (int i = 0; i < data.length; i++) {
+                temp[i]=data[i];
+            }
+            data = temp;
+        }
+
+        //now insert the item normally
+        return super.push(value);
+    }
 }
