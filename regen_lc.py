@@ -19,7 +19,7 @@ easy_set = {
     '541', '543', '551', '557', '559', '561', '563', '566', '572', '575', '589', '590', '594', '598', 
     '599', '605', '606', '617', '628', '637', '643', '645', '653', '657', '661', '671', '674', '680', 
     '682', '693', '696', '697', '700', '703', '704', '705', '706', '709', '717', '724', '728', '733', 
-    '744', '746', '747', '748', '762', '766', '771', '832', '867', '876', '888', '905', '922', '976', '977', '1051', '1108', '1122', '1200', '1217', '1252', '1281', '1295', '1304', '1331', '1342', '1346', '1351', '1356', '1365', '1380', '1389', '1431', '1464', '1470', '1480', '1491', '1502', '1512', '1528', '1539', '1572', '1608', '1636', '1672', '1678', '1732', '1773', '1832', '1854', '1886', '1920', '1929', '2089', '2848'
+    '744', '746', '747', '748', '762', '766', '771', '832', '867', '876', '888', '905', '922', '976', '977', '1051', '1108', '1122', '1200', '1217', '1252', '1281', '1295', '1304', '1309', '1331', '1342', '1346', '1351', '1356', '1365', '1380', '1389', '1431', '1464', '1470', '1480', '1491', '1502', '1512', '1528', '1539', '1572', '1608', '1636', '1672', '1678', '1704', '1732', '1768', '1773', '1784', '1832', '1854', '1859', '1886', '1920', '1929', '2089', '2848'
 }
 
 hard_set = {
@@ -51,6 +51,7 @@ for title, num, link in sorted(matches, key=lambda x: int(x[1])):
     elif "condition-loops" in link: topic = "Conditionals/Loops"
     elif "recursion" in link: topic = "Recursion"
     elif "linkedlist" in link: topic = "Linked Lists"
+    elif "stack-queue" in link or "stacks-and-queues" in link: topic = "Stacks & Queues"
     
     detailed_lines.append(f"| {num} | [{title}]({link}) | {diff} | {topic} | [Solution]({link}) |")
     
@@ -84,7 +85,7 @@ summary_lines.append(f"| **Total** | **{total_stats['Total']}** | **{total_stats
 summary_lines.append("")
 
 # Replace everything from "## 🏆 LeetCode Questions Solved" onwards
-new_text = "\n".join(summary_lines) + "\n".join(detailed_lines)
+new_text = "\n".join(summary_lines) + "\n" + "\n".join(detailed_lines)
 
 # Split by the heading
 parts = content.split("## 🏆 LeetCode Questions Solved")
