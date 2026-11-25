@@ -2,7 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Progress](https://img.shields.io/badge/Progress-In%20Progress-brightgreen?style=for-the-badge)](#-curriculum--progress-tracker)
-[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-375+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
+[![Problems Solved](https://img.shields.io/badge/Programs%20%26%20Problems%20Solved-430+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](#-curriculum--progress-tracker)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 > A structured, end-to-end journey to master **Data Structures and Algorithms** using **Java**, covering fundamental logic building, core linear/non-linear data structures, algorithmic paradigms (divide & conquer, greedy, backtracking, dynamic programming), and competitive programming/interview patterns.
@@ -17,16 +17,16 @@
 | **01** | [Java Fundamentals & First Programs](#phase-1-java-fundamentals--first-programs) | ✅ Completed | 17 (8 core + 9 questions) | [`first-java/`](./first-java/) |
 | **02** | [Conditionals, Loops & Switch](#phase-2-conditionals-loops--switch-statements) | ✅ Completed | 22 (8 core + 14 questions) | [`condition-loops/`](./condition-loops/) |
 | **03** | [Functions / Methods](#phase-3-functions--methods) | ✅ Completed | 19 (11 core + 8 questions) | [`methods/`](./methods/) |
-| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 44 (9 core + 35 questions) | [`arrays/`](./arrays/) |
+| **04** | [Arrays & Dynamic Arrays (ArrayList)](#phase-4-arrays--arraylist) | ✅ Completed | 45 (9 core + 36 questions) | [`arrays/`](./arrays/) |
 | **05** | [Searching Algorithms (Linear & Binary)](#phase-5-searching-algorithms) | ✅ Completed | 51 (12 linear + 39 binary search) | [`searching/`](./searching/) |
 | **06** | [Sorting Algorithms](#phase-6-sorting-algorithms) | 🔄 In Progress | 37 (4 core + 33 questions) | [`sorting/`](./sorting/) |
-| **07** | [Strings & Pattern Matching](#phase-7-strings--stringbuilder) | 🔄 In Progress | 28 (10 core + 18 questions) | [`strings/`](./strings/) |
+| **07** | [Strings & Pattern Matching](#phase-7-strings--stringbuilder) | 🔄 In Progress | 58 (13 core + 45 questions) | [`strings/`](./strings/) |
 | **08** | [Math & Bit Manipulation](#phase-8-math--bit-manipulation) | 🔄 In Progress | 16 (16 core) | `bitwise/` & `maths/` |
-| **09** | [Recursion & Backtracking](#phase-9-recursion--backtracking) | 🔄 In Progress | 36 (36 core/questions) | [`recursion/`](./recursion/) |
-| **10** | [Object-Oriented Programming (OOP)](#phase-10-object-oriented-programming-oop-for-dsa) | ✅ Completed | 65 (65 core) | [`oop/`](./oop/) |
+| **09** | [Recursion & Backtracking](#phase-9-recursion--backtracking) | 🔄 In Progress | 50 (35 core + 15 questions) | [`recursion/`](./recursion/) |
+| **10** | [Object-Oriented Programming (OOP)](#phase-10-object-oriented-programming-oop-for-dsa) | ✅ Completed | 68 (68 core) | [`oop/`](./oop/) |
 | **11** | [Linked Lists](#phase-11-linked-lists) | 🔄 In Progress | 19 (6 core + 13 questions) | [`linkedlist/`](./linkedlist/) |
-| **12** | [Stacks & Queues](#phase-12-stacks--queues) | 🔄 In Progress | 15 (10 core + 5 questions) | [`stack-queue/`](./stack-queue/) |
-| **13** | [Trees & Binary Search Trees](#phase-13-trees--binary-search-trees-bst) | ⏳ Upcoming | 0 | `trees/` |
+| **12** | [Stacks & Queues](#phase-12-stacks--queues) | 🔄 In Progress | 16 (10 core + 6 questions) | [`stack-queue/`](./stack-queue/) |
+| **13** | [Trees & Binary Search Trees](#phase-13-trees--binary-search-trees-bst) | 🔄 In Progress | 8 (8 core implementations) | [`trees/`](./trees/) |
 | **14** | [Heaps & Priority Queues](#phase-14-heaps--priority-queues) | ⏳ Upcoming | 0 | `heaps/` |
 | **15** | [Hash Maps & Hash Sets](#phase-15-hash-maps--hash-sets) | ⏳ Upcoming | 0 | `hashing/` |
 | **16** | [Graphs & Graph Algorithms](#phase-16-graphs--graph-algorithms) | ⏳ Upcoming | 0 | `graphs/` |
@@ -181,6 +181,7 @@
 - [x] [Fair Candy Swap (LeetCode 888)](./arrays/questions/FairCandySwap.java)
 - [x] [Special Array With X Elements Greater Than or Equal X (LeetCode 1608)](./arrays/questions/SpecialArrayWithXElementsGreaterEqualX.java)
 - [x] [Set Matrix Zeroes (LeetCode 73)](./arrays/questions/SetMatrixZeroes.java)
+- [x] [Longest Strictly Increasing or Strictly Decreasing Subarray (LeetCode 3105)](./arrays/questions/LongestStrictlyIncreasingOrDecreasingArray.java)
 
 #### ⏳ Upcoming Array Topics
 - [ ] Two-Pointers & Sliding Window techniques
@@ -312,26 +313,55 @@
 - [x] [String Methods & Manipulations](./strings/MethodsInString.java)
 - [x] [Pattern Searching: KMP Algorithm (Knuth-Morris-Pratt)](./strings/KnuthMorrisPratt.java)
 - [x] [Pattern Searching: Rabin-Karp Rolling Hash Algorithm](./strings/RabinKarpAlgorithm.java)
+- [x] Large Strings & Formatting: StringBuffer, Random String Generator, DecimalFormat ([`Main.java`](./strings/LargeStrings/Main.java), [`RandomString.java`](./strings/LargeStrings/RandomString.java))
+- [x] [Tic-Tac-Toe Game on Matrix](./strings/TicTacToe.java)
 
 #### 📝 Practice Questions
 - [x] [Roman to Integer (LeetCode 13)](./strings/questions/RomanToInteger.java)
+- [x] [Longest Common Prefix (LeetCode 14)](./strings/questions/LongestCommonPrefix.java)
+- [x] [Find the Index of the First Occurrence in a String (LeetCode 28)](./strings/questions/FindTheIndexOfFirstOccurenceOfString.java)
 - [x] [Length of Last Word (LeetCode 58)](./strings/questions/LengthOfLastWord.java)
+- [x] [Valid Number (LeetCode 65)](./strings/questions/ValidNumber.java)
 - [x] [Check if String is Palindrome or Not (LeetCode 125)](./strings/questions/CheckIfStringPalindromeOrNot.java)
 - [x] [Valid Palindrome (LeetCode 125)](./strings/questions/ValidPalindrome.java)
 - [x] [Reverse Words in a String (LeetCode 151)](./strings/questions/ReverseWordsInAString.java)
 - [x] [Reverse Words in a String II (LeetCode 186)](./strings/questions/ReverseWordsInAStringII.java)
+- [x] [Basic Calculator II (LeetCode 227)](./strings/questions/BasicCalculatorII.java)
+- [x] [Minimum Time Difference (LeetCode 539)](./strings/questions/MinimumTimeDifference.java)
 - [x] [Reverse Words in a String III (LeetCode 557)](./strings/questions/ReverseWordsInAStringIII.java)
+- [x] [Next Greater Element III (LeetCode 556)](./strings/questions/NextGreaterElementIII.java)
 - [x] [Robot Return to Origin (LeetCode 657)](./strings/questions/RobustReturnToOrigin.java)
 - [x] [Valid Palindrome II (LeetCode 680)](./strings/questions/ValidPalindromeII.java)
 - [x] [To Lower Case (LeetCode 709)](./strings/questions/ToLowerCase.java)
+- [x] [Swap Adjacent in LR String (LeetCode 777)](./strings/questions/SwapAdjacentInLRStrings.java)
+- [x] [Shifting Letters (LeetCode 848)](./strings/questions/ShiftingLetters.java)
+- [x] [Orderly Queue (LeetCode 899)](./strings/questions/OrderlyQueue.java)
+- [x] [Long Pressed Name (LeetCode 925)](./strings/questions/LongPressedName.java)
+- [x] [Camelcase Matching (LeetCode 1023)](./strings/questions/CamelCaseMatching.java)
 - [x] [Defanging an IP Address (LeetCode 1108)](./strings/questions/DefangingAnIPAddress.java)
+- [x] [Last Substring in Lexicographical Order (LeetCode 1163)](./strings/questions/LastSubstringInLexicographicalOrder.java)
+- [x] [Get Equal Substrings Within Budget (LeetCode 1208)](./strings/questions/GetEqualSubStringsWithinBudget.java)
 - [x] [Decrypt String from Alphabet to Integer Mapping (LeetCode 1309)](./strings/questions/DecryptStringFromAlphabetToIntegerMapping.java)
+- [x] [Print Words Vertically (LeetCode 1324)](./strings/questions/PrintWordsVertically.java)
+- [x] [Number of Substrings With Only 1s (LeetCode 1513)](./strings/questions/NumberOfSubStringsWithOnly1s.java)
+- [x] [Find Kth Bit in Nth Binary String (LeetCode 1545)](./strings/questions/FindKthBitInNthString.java)
+- [x] [Number of Ways to Split a String (LeetCode 1573)](./strings/questions/NumberOfWaysToSplitAString.java)
+- [x] [Split Two Strings to Make Palindrome (LeetCode 1616)](./strings/questions/SplitTwoStringsToMakeAPalindrome.java)
 - [x] [Shuffle String (LeetCode 1528)](./strings/questions/ShuffleString.java)
+- [x] [Check If Two String Arrays are Equivalent (LeetCode 1662)](./strings/questions/CheckIfTwoStringsAreEquivalent.java)
+- [x] [Maximum Repeating Substring (LeetCode 1668)](./strings/questions/MaximumRepeatingSubString.java)
 - [x] [Goal Parser Interpretation (LeetCode 1678)](./strings/questions/GoalParserInterpretation.java)
 - [x] [Determine if String Halves Are Alike (LeetCode 1704)](./strings/questions/DetermineIfStringHalvesAreAlike.java)
+- [x] [Minimum Length of String After Deleting Similar Ends (LeetCode 1750)](./strings/questions/MinimumLengthOfStringAfterDeletingSimilarEnds.java)
+- [x] [Count Number of Homogenous Substrings (LeetCode 1759)](./strings/questions/CountNumberOfHomogenousSubstrings.java)
 - [x] [Merge Strings Alternately (LeetCode 1768)](./strings/questions/MergeStringsAlternately.java)
 - [x] [Check if Binary String Has at Most One Segment of Ones (LeetCode 1784)](./strings/questions/CheckIfBinaryStringHasAtMost1SegementOfOnes.java)
+- [x] [Sentence Similarity III (LeetCode 1813)](./strings/questions/SentenceSimilarityII.java)
 - [x] [Sorting the Sentence (LeetCode 1859)](./strings/questions/SortingTheSentence.java)
+- [x] [Maximum Number of Removable Characters (LeetCode 1898)](./strings/questions/MaximumNumberOfRemovableCharacters.java)
+- [x] [Number of Strings That Appear as Substrings in Word (LeetCode 1967)](./strings/questions/NumberOfStringsThatAppearsAsSubStringInWord.java)
+- [x] [Reverse Prefix of Word (LeetCode 2000)](./strings/questions/ReversePrefixOfAWord.java)
+- [x] [Find the Lexicographically Largest String From the Box I (LeetCode 3403)](./strings/questions/FindTheLexicographicallyLargestStringFromBoxI.java)
 
 ---
 
@@ -396,6 +426,19 @@
 
 #### 📝 Recursion Practice Questions
 - [x] [Letter Combinations of a Phone Number (LeetCode 17)](./recursion/questions/LetterCombinationsOfPhoneNumber.java)
+- [x] [Combination Sum (LeetCode 39)](./recursion/questions/CombinationSum.java)
+- [x] [Combination Sum II (LeetCode 40)](./recursion/questions/CombinationSumII.java)
+- [x] [Pow(x, n) (LeetCode 50)](./recursion/questions/powxandn.java)
+- [x] [Combination Sum III (LeetCode 216)](./recursion/questions/CombinationSumIII.java)
+- [x] [Power of Two (LeetCode 231)](./recursion/questions/PowerOfTwo.java)
+- [x] [Power of Three (LeetCode 326)](./recursion/questions/PowerOfThree.java)
+- [x] [Power of Four (LeetCode 342)](./recursion/questions/PowerOfFour.java)
+- [x] [Reverse String (LeetCode 344)](./recursion/questions/ReverseString.java)
+- [x] [Fibonacci Number (LeetCode 509)](./recursion/questions/FibonacciNumber.java)
+- [x] [Binary Search Recursive (LeetCode 704)](./recursion/questions/BinarySearch.java)
+- [x] [Letter Tile Possibilities (LeetCode 1079)](./recursion/questions/LetterTilePossibilities.java)
+- [x] [Find Kth Bit in Nth Binary String (LeetCode 1545)](./recursion/questions/FindKthBitInNthBinaryString.java)
+- [x] [Minimum Non-Zero Product of the Array Elements (LeetCode 1969)](./recursion/questions/MinimumNonZeroProductOfArrayElements.java)
 - [x] [Dice Throw Problem (Ways to get target sum)](./recursion/questions/DiceProblem.java)
 
 #### 📘 Classic Backtracking Problems
@@ -434,6 +477,7 @@
 - [x] Object Cloning, Shallow vs Deep Copy (`Cloneable` interface) ([`cloning/`](./oop/cloning/))
 - [x] Exception Handling (`try`, `catch`, `finally`, `throw`, `throws`, Custom Exceptions) ([`ExceptionHandling/`](./oop/ExceptionHandling/))
 - [x] Collections Framework Architecture & Enums ([`collections/`](./oop/collections/), [`enumsExamples/`](./oop/enumsExamples/))
+- [x] Large Numbers: `BigInteger`, `BigDecimal` & Large Factorials ([`BigDecimalExamples.java`](./oop/LargeNumbers/BigDecimalExamples.java), [`FactorialBigInteger.java`](./oop/LargeNumbers/FactorialBigInteger.java), [`Main.java`](./oop/LargeNumbers/Main.java))
 
 ---
 
@@ -478,6 +522,7 @@
 #### 📝 Practice Questions
 - [x] [Valid Parentheses (LeetCode 20)](./stack-queue/questions/ValidParentheses.java)
 - [x] [Largest Rectangle in Histogram (LeetCode 84 - Monotonic Stack)](./stack-queue/questions/LargestRectangleInHistogram.java)
+- [x] [Basic Calculator (LeetCode 224)](./stack-queue/questions/BasicCalculator.java)
 - [x] [Implement Stack using Queues (LeetCode 225)](./stack-queue/questions/ImplementStackUsingQueue.java)
 - [x] [Implement Queue using Stacks (LeetCode 232)](./stack-queue/questions/ImplementQueueUsingStacks.java)
 - [x] [Minimum Add to Make Parentheses Valid (LeetCode 921)](./stack-queue/questions/MinimumAddToMakeValidParentheses.java)
@@ -491,20 +536,19 @@
 ---
 
 ### Phase 13: Trees & Binary Search Trees (BST)
-*Location: `trees/`*
-- [ ] Tree Terminology: Root, Edge, Leaf, Depth, Height
-- [ ] Binary Tree Traversals:
-  - [ ] Pre-order, In-order, Post-order (Recursive & Iterative)
-  - [ ] Level-order Traversal (BFS)
-  - [ ] Zig-zag / Spiral Traversal, Vertical Order Traversal
-- [ ] Views of Binary Tree: Left View, Right View, Top View, Bottom View
+*Location: [`trees/`](./trees/)*
+
+#### 📘 Core Implementations
+- [x] Standard Binary Tree (Node definition, recursive user-input insertion, formatted display) ([`BinaryTree.java`](./trees/BinaryTree/BinaryTree.java), [`Main.java`](./trees/BinaryTree/Main.java))
+- [x] Binary Search Tree (BST) (Insertion, balanced height checks, populated sorted array to BST, in-order/pre-order/post-order traversals) ([`BST.java`](./trees/BinarySearchTree/BST.java), [`Main.java`](./trees/BinarySearchTree/Main.java))
+- [x] Self-Balancing AVL Tree (Height calculations, balance factors, left rotation, right rotation, LL/RR/LR/RL rebalancing) ([`AVL.java`](./trees/AVLTrees/AVL.java), [`Main.java`](./trees/AVLTrees/Main.java))
+- [x] Segment Tree (Interval & range sum queries, leaf/internal nodes, point updates in $O(\log N)$) ([`Segment.java`](./trees/SegmentTrees/Segment.java), [`Main.java`](./trees/SegmentTrees/Main.java))
+
+#### ⏳ Upcoming Tree Patterns & Problems
+- [ ] Binary Tree Traversals & Views (BFS Level-order, Zig-zag, Vertical, Left/Right/Top/Bottom Views)
 - [ ] Diameter, Maximum Path Sum & Lowest Common Ancestor (LCA)
-- [ ] Binary Search Tree (BST):
-  - [ ] Search, Insertion, Deletion in BST
-  - [ ] Validate BST, Find Min/Max, In-order Successor/Predecessor
-  - [ ] Construct BST from Preorder / Sorted Array
-  - [ ] Flatten BST to Sorted List
-- [ ] Self-Balancing Trees (AVL Trees concept & Rotations)
+- [ ] BST Validation, Delete Node in BST, In-order Successor/Predecessor
+- [ ] Construct BST from Preorder / Sorted Array & Flatten BST to Sorted List
 
 ---
 
@@ -673,25 +717,29 @@ DSA-with-Java/
 │       ├── Swap.java
 │       └── VarArgs.java
 │
-├── arrays/                                             # 1D/2D arrays, jagged arrays, ArrayList & LeetCode problems (37)
+├── arrays/                                             # 1D/2D arrays, jagged arrays, ArrayList & LeetCode problems (45)
 │   ├── MainArray.java
 │   ├── questions/
 │   │   ├── AddToArrayFormInteger.java                  # LeetCode 989
 │   │   ├── BuildArrayFromPermutation.java              # LeetCode 1920
 │   │   ├── CellsWithOddValueInMatrix.java              # LeetCode 1252
+│   │   ├── CheckIfItsGoodArray.java                    # LeetCode 1250
 │   │   ├── CheckIfSentenceIsPangram.java               # LeetCode 1832
 │   │   ├── ConcatenationOfArray.java                   # LeetCode 1929
 │   │   ├── CountItemsMatchingRule.java                 # LeetCode 1773
 │   │   ├── CreateTargetArrayInGivenOrder.java          # LeetCode 1389
 │   │   ├── DetermineWhetherRotationMatrix.java         # LeetCode 1886
+│   │   ├── FairCandySwap.java                          # LeetCode 888
 │   │   ├── FindNumbersWithEvenNumberDigits.java        # LeetCode 1295
 │   │   ├── FindTheHighestAltitude.java                 # LeetCode 1732
 │   │   ├── FindUniqueIntegersNSumToZero.java           # LeetCode 1304
 │   │   ├── FlippingAnImage.java                        # LeetCode 832
 │   │   ├── KidsWithGreatestNumberOfCandies.java        # LeetCode 1431
+│   │   ├── LongestStrictlyIncreasingOrDecreasingArray.java # LeetCode 3105
 │   │   ├── MatrixDiagonalSum.java                      # LeetCode 1572
 │   │   ├── MaximumPossibleYear.java                    # LeetCode 1854
 │   │   ├── MaximumSubArray.java                        # LeetCode 53
+│   │   ├── MinimumCostToMoveChipsToSamePosition.java   # LeetCode 1217
 │   │   ├── NumberOfGoodPairs.java                      # LeetCode 1512
 │   │   ├── NumberSmallerThanCurrentNumber.java         # LeetCode 1365
 │   │   ├── PlusOne.java                                # LeetCode 66
@@ -700,8 +748,10 @@ DSA-with-Java/
 │   │   ├── ReshapeTheMatrix.java                       # LeetCode 566
 │   │   ├── RotateArray.java                            # LeetCode 189
 │   │   ├── RunningSumOf1DArray.java                    # LeetCode 1480
+│   │   ├── SetMatrixZeroes.java                        # LeetCode 73
 │   │   ├── ShuffleTheArray.java                        # LeetCode 1470
 │   │   ├── SortColors.java                             # LeetCode 75
+│   │   ├── SpecialArrayWithXElementsGreaterEqualX.java # LeetCode 1608
 │   │   ├── SpiralMatrix.java                           # LeetCode 54
 │   │   ├── SpiralMatrixII.java                         # LeetCode 59
 │   │   ├── TransposeMatrix.java                        # LeetCode 867
@@ -812,9 +862,12 @@ DSA-with-Java/
 │       ├── ThreeSum.java                               # LeetCode 15
 │       ├── ThreeSumClosest.java                        # LeetCode 16
 │       └── ThreeSumSmaller.java                        # LeetCode 259
-├── strings/                                            # String algorithms & manipulation (28)
+├── strings/                                            # String algorithms & manipulation (58)
 │   ├── ComparisonString.java
 │   ├── KnuthMorrisPratt.java                           # KMP Pattern Searching Algorithm
+│   ├── LargeStrings/
+│   │   ├── Main.java                                   # Large String handling & DecimalFormat
+│   │   └── RandomString.java                           # Random String Generator
 │   ├── MethodsInString.java
 │   ├── Operators.java
 │   ├── PerformanceString.java
@@ -823,23 +876,51 @@ DSA-with-Java/
 │   ├── StringBasic.java
 │   ├── StringBuilderAlternative.java
 │   ├── StringOutput.java
+│   ├── TicTacToe.java                                  # Matrix-based Tic Tac Toe Game
 │   └── questions/
+│       ├── BasicCalculatorII.java                      # LeetCode 227
+│       ├── CamelCaseMatching.java                      # LeetCode 1023
 │       ├── CheckIfBinaryStringHasAtMost1SegementOfOnes.java # LeetCode 1784
 │       ├── CheckIfStringPalindromeOrNot.java           # LeetCode 125
+│       ├── CheckIfTwoStringsAreEquivalent.java         # LeetCode 1662
+│       ├── CountNumberOfHomogenousSubstrings.java      # LeetCode 1759
 │       ├── DecryptStringFromAlphabetToIntegerMapping.java # LeetCode 1309
 │       ├── DefangingAnIPAddress.java                   # LeetCode 1108
 │       ├── DetermineIfStringHalvesAreAlike.java        # LeetCode 1704
+│       ├── FindKthBitInNthString.java                  # LeetCode 1545
+│       ├── FindTheIndexOfFirstOccurenceOfString.java   # LeetCode 28
+│       ├── FindTheLexicographicallyLargestStringFromBoxI.java # LeetCode 3403
+│       ├── GetEqualSubStringsWithinBudget.java         # LeetCode 1208
 │       ├── GoalParserInterpretation.java               # LeetCode 1678
+│       ├── LastSubstringInLexicographicalOrder.java    # LeetCode 1163
 │       ├── LengthOfLastWord.java                       # LeetCode 58
+│       ├── LongPressedName.java                        # LeetCode 925
+│       ├── LongestCommonPrefix.java                    # LeetCode 14
+│       ├── MaximumNumberOfRemovableCharacters.java     # LeetCode 1898
+│       ├── MaximumRepeatingSubString.java              # LeetCode 1668
 │       ├── MergeStringsAlternately.java                # LeetCode 1768
+│       ├── MinimumLengthOfStringAfterDeletingSimilarEnds.java # LeetCode 1750
+│       ├── MinimumTimeDifference.java                  # LeetCode 539
+│       ├── NextGreaterElementIII.java                  # LeetCode 556
+│       ├── NumberOfStringsThatAppearsAsSubStringInWord.java # LeetCode 1967
+│       ├── NumberOfSubStringsWithOnly1s.java           # LeetCode 1513
+│       ├── NumberOfWaysToSplitAString.java             # LeetCode 1573
+│       ├── OrderlyQueue.java                           # LeetCode 899
+│       ├── PrintWordsVertically.java                   # LeetCode 1324
+│       ├── ReversePrefixOfAWord.java                   # LeetCode 2000
 │       ├── ReverseWordsInAString.java                  # LeetCode 151
 │       ├── ReverseWordsInAStringII.java                # LeetCode 186
 │       ├── ReverseWordsInAStringIII.java               # LeetCode 557
 │       ├── RobustReturnToOrigin.java                   # LeetCode 657
 │       ├── RomanToInteger.java                         # LeetCode 13
+│       ├── SentenceSimilarityII.java                   # LeetCode 1813
+│       ├── ShiftingLetters.java                        # LeetCode 848
 │       ├── ShuffleString.java                          # LeetCode 1528
 │       ├── SortingTheSentence.java                     # LeetCode 1859
+│       ├── SplitTwoStringsToMakeAPalindrome.java       # LeetCode 1616
+│       ├── SwapAdjacentInLRStrings.java                # LeetCode 777
 │       ├── ToLowerCase.java                            # LeetCode 709
+│       ├── ValidNumber.java                            # LeetCode 65
 │       ├── ValidPalindrome.java                        # LeetCode 125
 │       └── ValidPalindromeII.java                      # LeetCode 680
 ├── bitwise/                                            # Bitwise operators and magic numbers (10)
@@ -860,12 +941,19 @@ DSA-with-Java/
 │   ├── FindSqrtofNumberWithPrecision.java
 │   ├── GCD_LCM.java
 │   └── PrimeNumberOrNot.java
-├── recursion/                                          # Recursion trees, arrays, patterns, sorting (26)
+├── recursion/                                          # Recursion trees, arrays, patterns, sorting & backtracking (50)
 │   ├── Arrays/
 │   │   ├── CheckWhetherArrayIsSorted.java
 │   │   ├── LinearSearchUsingRecursion.java
 │   │   ├── RotatedBinarySearchUsingRecursion.java
 │   │   └── SubsetIteration.java
+│   ├── BackTracking/
+│   │   ├── MazeAllPaths.java
+│   │   ├── MazeProblem.java
+│   │   ├── MazeProblemWithObstacle.java
+│   │   ├── NKnights.java
+│   │   ├── NQueens.java
+│   │   └── SudokuSolver.java
 │   ├── BinarySearchRec.java
 │   ├── Easy/
 │   │   ├── CountZeroes.java
@@ -888,12 +976,30 @@ DSA-with-Java/
 │   │   ├── SelectionSortRecursion.java
 │   │   └── Triangle.java
 │   ├── questions/
-│   │   └── NumberOfStepsToReduceNumberToZero.java
+│   │   ├── BinarySearch.java                           # LeetCode 704
+│   │   ├── CombinationSum.java                         # LeetCode 39
+│   │   ├── CombinationSumII.java                       # LeetCode 40
+│   │   ├── CombinationSumIII.java                      # LeetCode 216
+│   │   ├── DiceProblem.java
+│   │   ├── FibonacciNumber.java                        # LeetCode 509
+│   │   ├── FindKthBitInNthBinaryString.java            # LeetCode 1545
+│   │   ├── LetterCombinationsOfPhoneNumber.java        # LeetCode 17
+│   │   ├── LetterCombinationsOfPhoneNumberConcept.java
+│   │   ├── LetterTilePossibilities.java                # LeetCode 1079
+│   │   ├── MinimumNonZeroProductOfArrayElements.java   # LeetCode 1969
+│   │   ├── NumberOfStepsToReduceNumberToZero.java      # LeetCode 1342
+│   │   ├── PowerOfFour.java                            # LeetCode 342
+│   │   ├── PowerOfThree.java                           # LeetCode 326
+│   │   ├── PowerOfTwo.java                             # LeetCode 231
+│   │   ├── ReverseString.java                          # LeetCode 344
+│   │   ├── SudokuSolver.java                           # LeetCode 37
+│   │   └── powxandn.java                               # LeetCode 50
 │   └── strings/
+│       ├── Permutation.java
 │       ├── RemoveCharOrSubStringFromString.java
 │       ├── Subset.java
 │       └── SubsetASCII.java
-├── oop/                                                # OOP principles, custom generics & collections (65)
+├── oop/                                                # OOP principles, custom generics & collections (68)
 │   ├── AbstractClasses/
 │   │   ├── Daughter.java
 │   │   ├── Main.java
@@ -919,6 +1025,10 @@ DSA-with-Java/
 │   │       ├── Main.java
 │   │       └── Student.java
 │   ├── InBuiltPackages/
+│   │   └── Main.java
+│   ├── LargeNumbers/
+│   │   ├── BigDecimalExamples.java
+│   │   ├── FactorialBigInteger.java
 │   │   └── Main.java
 │   ├── Properties/
 │   │   ├── Inheritance/
@@ -1004,7 +1114,7 @@ DSA-with-Java/
 │       ├── ReverseNodesInKGroups.java                  # LeetCode 25
 │       ├── RotateList.java                             # LeetCode 61
 │       └── SortList.java                               # LeetCode 148
-├── stack-queue/                                        # Custom stacks, queues, circular/dynamic & problems (15)
+├── stack-queue/                                        # Custom stacks, queues, circular/dynamic & problems (16)
 │   ├── CircularQueue.java
 │   ├── CustomQueue.java
 │   ├── CustomStack.java
@@ -1016,12 +1126,25 @@ DSA-with-Java/
 │   ├── StackException.java
 │   ├── StackMain.java
 │   └── questions/
+│       ├── BasicCalculator.java                        # LeetCode 224
 │       ├── ImplementQueueUsingStacks.java              # LeetCode 232
 │       ├── ImplementStackUsingQueue.java               # LeetCode 225
 │       ├── LargestRectangleInHistogram.java            # LeetCode 84
 │       ├── MinimumAddToMakeValidParentheses.java       # LeetCode 921
 │       └── ValidParentheses.java                       # LeetCode 20
-├── trees/                              # Binary trees, BSTs & traversals
+├── trees/                                              # Binary Tree, BST, AVL & Segment Trees (8)
+│   ├── AVLTrees/
+│   │   ├── AVL.java
+│   │   └── Main.java
+│   ├── BinarySearchTree/
+│   │   ├── BST.java
+│   │   └── Main.java
+│   ├── BinaryTree/
+│   │   ├── BinaryTree.java
+│   │   └── Main.java
+│   └── SegmentTrees/
+│       ├── Main.java
+│       └── Segment.java
 ├── heaps/                              # Min/Max heap, PriorityQueue, two-heaps
 ├── hashing/                            # HashMaps, HashSets & prefix sum patterns
 ├── graphs/                             # BFS, DFS, Dijkstra, MST, TopoSort
@@ -1076,15 +1199,15 @@ java questions.SearchInRotatedSortedArray
 
 | Topic / Phase | Total Questions | Easy 🟢 | Medium 🟡 | Hard 🔴 |
 |:---|:---:|:---:|:---:|:---:|
-| Arrays | 35 | 26 | 8 | 1 |
+| Arrays | 36 | 27 | 8 | 1 |
 | Conditionals/Loops | 1 | 1 | 0 | 0 |
 | Linked Lists | 13 | 7 | 5 | 1 |
-| Recursion | 3 | 1 | 1 | 1 |
+| Recursion | 16 | 7 | 8 | 1 |
 | Searching | 37 | 17 | 15 | 5 |
 | Sorting | 33 | 25 | 7 | 1 |
-| Stacks & Queues | 5 | 3 | 1 | 1 |
-| Strings | 18 | 16 | 2 | 0 |
-| **Total** | **145** | **96** | **39** | **10** |
+| Stacks & Queues | 6 | 3 | 1 | 2 |
+| Strings | 45 | 23 | 19 | 3 |
+| **Total** | **187** | **110** | **63** | **14** |
 
 ### 📋 Detailed Questions List
 
@@ -1093,6 +1216,7 @@ java questions.SearchInRotatedSortedArray
 | 1 | [Two Sum](./arrays/questions/TwoSum.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/TwoSum.java) |
 | 4 | [Median of Two Sorted Arrays](./searching/binary_search/questions/MedianOfTwoSortedArrays.java) | Hard 🔴 | Searching | [Solution](./searching/binary_search/questions/MedianOfTwoSortedArrays.java) |
 | 13 | [Roman to Integer](./strings/questions/RomanToInteger.java) | Easy 🟢 | Strings | [Solution](./strings/questions/RomanToInteger.java) |
+| 14 | [Longest Common Prefix](./strings/questions/LongestCommonPrefix.java) | Easy 🟢 | Strings | [Solution](./strings/questions/LongestCommonPrefix.java) |
 | 15 | [3Sum](./sorting/questions/ThreeSum.java) | Medium 🟡 | Sorting | [Solution](./sorting/questions/ThreeSum.java) |
 | 16 | [3Sum Closest](./sorting/questions/ThreeSumClosest.java) | Medium 🟡 | Sorting | [Solution](./sorting/questions/ThreeSumClosest.java) |
 | 17 | [Letter Combinations of a Phone Number](./recursion/questions/LetterCombinationsOfPhoneNumber.java) | Medium 🟡 | Recursion | [Solution](./recursion/questions/LetterCombinationsOfPhoneNumber.java) |
@@ -1101,16 +1225,21 @@ java questions.SearchInRotatedSortedArray
 | 21 | [Merge Two Sorted Lists](./linkedlist/questions/MergeTwoSortedLists.java) | Easy 🟢 | Linked Lists | [Solution](./linkedlist/questions/MergeTwoSortedLists.java) |
 | 25 | [Reverse Nodes in k-Group](./linkedlist/questions/ReverseNodesInKGroups.java) | Hard 🔴 | Linked Lists | [Solution](./linkedlist/questions/ReverseNodesInKGroups.java) |
 | 26 | [Remove Duplicates from Sorted Array](./arrays/questions/RemoveDuplicateFromSortedArray.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/RemoveDuplicateFromSortedArray.java) |
+| 28 | [Find the Index of the First Occurrence in a String](./strings/questions/FindTheIndexOfFirstOccurenceOfString.java) | Easy 🟢 | Strings | [Solution](./strings/questions/FindTheIndexOfFirstOccurenceOfString.java) |
 | 33 | [Search in Rotated Sorted Array](./searching/binary_search/questions/SearchInRotatedSortedArray.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/SearchInRotatedSortedArray.java) |
 | 34 | [Find First and Last Position of Element in Sorted Array](./searching/binary_search/questions/FirstLastPositionOfElementInSortedArray.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/FirstLastPositionOfElementInSortedArray.java) |
 | 35 | [Search Insert Position](./searching/binary_search/questions/SearchInsertPosition.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/SearchInsertPosition.java) |
 | 37 | [Sudoku Solver](./recursion/BackTracking/SudokuSolver.java) | Hard 🔴 | Recursion | [Solution](./recursion/BackTracking/SudokuSolver.java) |
+| 39 | [Combination Sum](./recursion/questions/CombinationSum.java) | Medium 🟡 | Recursion | [Solution](./recursion/questions/CombinationSum.java) |
+| 40 | [Combination Sum II](./recursion/questions/CombinationSumII.java) | Medium 🟡 | Recursion | [Solution](./recursion/questions/CombinationSumII.java) |
 | 41 | [First Missing Positive](./sorting/questions/FirstMissingPositive.java) | Hard 🔴 | Sorting | [Solution](./sorting/questions/FirstMissingPositive.java) |
+| 50 | [Pow(x, n)](./recursion/questions/powxandn.java) | Medium 🟡 | Recursion | [Solution](./recursion/questions/powxandn.java) |
 | 53 | [Maximum Subarray](./arrays/questions/MaximumSubArray.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/MaximumSubArray.java) |
 | 54 | [Spiral Matrix I](./arrays/questions/SpiralMatrix.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/SpiralMatrix.java) |
 | 58 | [Length of Last Word](./strings/questions/LengthOfLastWord.java) | Easy 🟢 | Strings | [Solution](./strings/questions/LengthOfLastWord.java) |
 | 59 | [Spiral Matrix II](./arrays/questions/SpiralMatrixII.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/SpiralMatrixII.java) |
 | 61 | [Rotate List](./linkedlist/questions/RotateList.java) | Medium 🟡 | Linked Lists | [Solution](./linkedlist/questions/RotateList.java) |
+| 65 | [Valid Number](./strings/questions/ValidNumber.java) | Hard 🔴 | Strings | [Solution](./strings/questions/ValidNumber.java) |
 | 66 | [Plus One](./arrays/questions/PlusOne.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/PlusOne.java) |
 | 69 | [Sqrt(x)](./searching/binary_search/questions/Sqrt_x_.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/Sqrt_x_.java) |
 | 73 | [Set Matrix Zeroes](./arrays/questions/SetMatrixZeroes.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/SetMatrixZeroes.java) |
@@ -1137,8 +1266,12 @@ java questions.SearchInRotatedSortedArray
 | 189 | [Rotate Array](./arrays/questions/RotateArray.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/RotateArray.java) |
 | 202 | [Happy Number](./linkedlist/questions/HappyNumber.java) | Easy 🟢 | Linked Lists | [Solution](./linkedlist/questions/HappyNumber.java) |
 | 206 | [Reverse Linked List](./linkedlist/questions/ReverseLinkedList.java) | Easy 🟢 | Linked Lists | [Solution](./linkedlist/questions/ReverseLinkedList.java) |
+| 216 | [Combination Sum III](./recursion/questions/CombinationSumIII.java) | Medium 🟡 | Recursion | [Solution](./recursion/questions/CombinationSumIII.java) |
 | 217 | [Contains Duplicate](./sorting/questions/ContainsDuplicate.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/ContainsDuplicate.java) |
+| 224 | [Basic Calculator](./stack-queue/questions/BasicCalculator.java) | Hard 🔴 | Stacks & Queues | [Solution](./stack-queue/questions/BasicCalculator.java) |
 | 225 | [Implement Stack using Queues](./stack-queue/questions/ImplementStackUsingQueue.java) | Easy 🟢 | Stacks & Queues | [Solution](./stack-queue/questions/ImplementStackUsingQueue.java) |
+| 227 | [Basic Calculator II](./strings/questions/BasicCalculatorII.java) | Medium 🟡 | Strings | [Solution](./strings/questions/BasicCalculatorII.java) |
+| 231 | [Power of Two](./recursion/questions/PowerOfTwo.java) | Easy 🟢 | Recursion | [Solution](./recursion/questions/PowerOfTwo.java) |
 | 232 | [Implement Queue using Stacks](./stack-queue/questions/ImplementQueueUsingStacks.java) | Easy 🟢 | Stacks & Queues | [Solution](./stack-queue/questions/ImplementQueueUsingStacks.java) |
 | 234 | [Palindrome Linked List](./linkedlist/questions/PalindromeLinkedList.java) | Easy 🟢 | Linked Lists | [Solution](./linkedlist/questions/PalindromeLinkedList.java) |
 | 238 | [Product of Array Except Self](./arrays/questions/ProductOfArrayExceptSelf.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/ProductOfArrayExceptSelf.java) |
@@ -1146,6 +1279,9 @@ java questions.SearchInRotatedSortedArray
 | 268 | [Missing Number](./sorting/questions/MissingNumber.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/MissingNumber.java) |
 | 278 | [First Bad Version](./searching/binary_search/questions/FirstBadVersion.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/FirstBadVersion.java) |
 | 287 | [Find the Duplicate Number](./sorting/questions/FindTheDuplicateArray.java) | Medium 🟡 | Sorting | [Solution](./sorting/questions/FindTheDuplicateArray.java) |
+| 326 | [Power of Three](./recursion/questions/PowerOfThree.java) | Easy 🟢 | Recursion | [Solution](./recursion/questions/PowerOfThree.java) |
+| 342 | [Power of Four](./recursion/questions/PowerOfFour.java) | Easy 🟢 | Recursion | [Solution](./recursion/questions/PowerOfFour.java) |
+| 344 | [Reverse String](./recursion/questions/ReverseString.java) | Easy 🟢 | Recursion | [Solution](./recursion/questions/ReverseString.java) |
 | 349 | [Intersection of Two Arrays](./searching/linear_search/questions/IntersectionOfTwoArrays.java) | Easy 🟢 | Searching | [Solution](./searching/linear_search/questions/IntersectionOfTwoArrays.java) |
 | 350 | [Intersection of Two Arrays II](./searching/linear_search/questions/IntersectionOfTwoArraysII.java) | Easy 🟢 | Searching | [Solution](./searching/linear_search/questions/IntersectionOfTwoArraysII.java) |
 | 367 | [Valid Perfect Square](./searching/binary_search/questions/ValidPerfectSquare.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/ValidPerfectSquare.java) |
@@ -1157,7 +1293,10 @@ java questions.SearchInRotatedSortedArray
 | 442 | [Find All Duplicates in an Array](./sorting/questions/FindAllDuplicatesInArray.java) | Medium 🟡 | Sorting | [Solution](./sorting/questions/FindAllDuplicatesInArray.java) |
 | 448 | [Find All Numbers Disappeared in an Array](./sorting/questions/FindNumbersDisapperedInArray.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/FindNumbersDisapperedInArray.java) |
 | 455 | [Assign Cookies](./sorting/questions/AssignCookies.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/AssignCookies.java) |
+| 509 | [Fibonacci Number](./recursion/questions/FibonacciNumber.java) | Easy 🟢 | Recursion | [Solution](./recursion/questions/FibonacciNumber.java) |
+| 539 | [Minimum Time Difference](./strings/questions/MinimumTimeDifference.java) | Medium 🟡 | Strings | [Solution](./strings/questions/MinimumTimeDifference.java) |
 | 540 | [Single Element in a Sorted Array](./searching/binary_search/questions/SingleElementInSortedArray.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/SingleElementInSortedArray.java) |
+| 556 | [Next Greater Element III](./strings/questions/NextGreaterElementIII.java) | Medium 🟡 | Strings | [Solution](./strings/questions/NextGreaterElementIII.java) |
 | 557 | [Reverse Words in a String III](./strings/questions/ReverseWordsInAStringIII.java) | Easy 🟢 | Strings | [Solution](./strings/questions/ReverseWordsInAStringIII.java) |
 | 561 | [Array Partition](./sorting/questions/ArrayPartition.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/ArrayPartition.java) |
 | 566 | [Reshape the Matrix](./arrays/questions/ReshapeTheMatrix.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/ReshapeTheMatrix.java) |
@@ -1166,28 +1305,37 @@ java questions.SearchInRotatedSortedArray
 | 657 | [Robot Return to Origin](./strings/questions/RobustReturnToOrigin.java) | Easy 🟢 | Strings | [Solution](./strings/questions/RobustReturnToOrigin.java) |
 | 680 | [Valid Palindrome II](./strings/questions/ValidPalindromeII.java) | Easy 🟢 | Strings | [Solution](./strings/questions/ValidPalindromeII.java) |
 | 704 | [Binary Search](./searching/binary_search/questions/BinarySearch.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/BinarySearch.java) |
+| 704 | [Binary Search Recursive](./recursion/questions/BinarySearch.java) | Easy 🟢 | Recursion | [Solution](./recursion/questions/BinarySearch.java) |
 | 709 | [To Lower Case](./strings/questions/ToLowerCase.java) | Easy 🟢 | Strings | [Solution](./strings/questions/ToLowerCase.java) |
 | 744 | [Find Smallest Letter Greater Than Target](./searching/binary_search/questions/FindSmallestLetterGreaterThanTarget.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/FindSmallestLetterGreaterThanTarget.java) |
 | 754 | [Reach a Number](./searching/linear_search/questions/ReachANumber.java) | Medium 🟡 | Searching | [Solution](./searching/linear_search/questions/ReachANumber.java) |
+| 777 | [Swap Adjacent in LR String](./strings/questions/SwapAdjacentInLRStrings.java) | Medium 🟡 | Strings | [Solution](./strings/questions/SwapAdjacentInLRStrings.java) |
 | 832 | [Flipping an Image](./arrays/questions/FlippingAnImage.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/FlippingAnImage.java) |
+| 848 | [Shifting Letters](./strings/questions/ShiftingLetters.java) | Medium 🟡 | Strings | [Solution](./strings/questions/ShiftingLetters.java) |
 | 852 | [Peak Index in a Mountain Array](./searching/binary_search/questions/PeakElementInArray.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/PeakElementInArray.java) |
 | 852 | [Peak Index in a Mountain Array](./searching/binary_search/questions/PeakIndexInMountainArray.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/PeakIndexInMountainArray.java) |
 | 867 | [Transpose Matrix](./arrays/questions/TransposeMatrix.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/TransposeMatrix.java) |
 | 875 | [Koko Eating Bananas](./searching/binary_search/questions/KokoEatingBanana.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/KokoEatingBanana.java) |
 | 876 | [Middle of the Linked List](./linkedlist/questions/MiddleOfLinkedList.java) | Easy 🟢 | Linked Lists | [Solution](./linkedlist/questions/MiddleOfLinkedList.java) |
 | 888 | [Fair Candy Swap](./arrays/questions/FairCandySwap.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/FairCandySwap.java) |
+| 899 | [Orderly Queue](./strings/questions/OrderlyQueue.java) | Hard 🔴 | Strings | [Solution](./strings/questions/OrderlyQueue.java) |
 | 905 | [Sort Array By Parity](./sorting/questions/SortArrayByParityI.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/SortArrayByParityI.java) |
 | 921 | [Minimum Add to Make Parentheses Valid](./stack-queue/questions/MinimumAddToMakeValidParentheses.java) | Medium 🟡 | Stacks & Queues | [Solution](./stack-queue/questions/MinimumAddToMakeValidParentheses.java) |
 | 922 | [Sort Array By Parity II](./sorting/questions/SortArrayByParityII.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/SortArrayByParityII.java) |
+| 925 | [Long Pressed Name](./strings/questions/LongPressedName.java) | Easy 🟢 | Strings | [Solution](./strings/questions/LongPressedName.java) |
 | 976 | [Largest Perimeter Triangle](./sorting/questions/LargestPerimeterOfTriangle.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/LargestPerimeterOfTriangle.java) |
 | 977 | [Squares of a Sorted Array](./sorting/questions/SquaresOfSortedArray.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/SquaresOfSortedArray.java) |
 | 989 | [Add to Array-Form of Integer](./arrays/questions/AddToArrayFormInteger.java) | Medium 🟡 | Arrays | [Solution](./arrays/questions/AddToArrayFormInteger.java) |
 | 1011 | [Capacity To Ship Packages Within D Days](./searching/binary_search/questions/CapacityToShipPackageWithinDDays.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/CapacityToShipPackageWithinDDays.java) |
+| 1023 | [Camelcase Matching](./strings/questions/CamelCaseMatching.java) | Medium 🟡 | Strings | [Solution](./strings/questions/CamelCaseMatching.java) |
 | 1051 | [Height Checker](./sorting/questions/HeightChecker.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/HeightChecker.java) |
+| 1079 | [Letter Tile Possibilities](./recursion/questions/LetterTilePossibilities.java) | Medium 🟡 | Recursion | [Solution](./recursion/questions/LetterTilePossibilities.java) |
 | 1095 | [Find in Mountain Array](./searching/binary_search/questions/FindInMountainArray.java) | Hard 🔴 | Searching | [Solution](./searching/binary_search/questions/FindInMountainArray.java) |
 | 1108 | [Defanging an IP Address](./strings/questions/DefangingAnIPAddress.java) | Easy 🟢 | Strings | [Solution](./strings/questions/DefangingAnIPAddress.java) |
 | 1122 | [Relative Sort Array](./sorting/questions/RelativeSortArray.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/RelativeSortArray.java) |
+| 1163 | [Last Substring in Lexicographical Order](./strings/questions/LastSubstringInLexicographicalOrder.java) | Hard 🔴 | Strings | [Solution](./strings/questions/LastSubstringInLexicographicalOrder.java) |
 | 1200 | [Minimum Absolute Difference](./sorting/questions/MinimumAbsoluteDifference.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/MinimumAbsoluteDifference.java) |
+| 1208 | [Get Equal Substrings Within Budget](./strings/questions/GetEqualSubStringsWithinBudget.java) | Medium 🟡 | Strings | [Solution](./strings/questions/GetEqualSubStringsWithinBudget.java) |
 | 1217 | [Minimum Cost to Move Chips to The Same Position](./arrays/questions/MinimumCostToMoveChipsToSamePosition.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/MinimumCostToMoveChipsToSamePosition.java) |
 | 1231 | [Divide Chocolate](./searching/binary_search/questions/DivideChocolate.java) | Hard 🔴 | Searching | [Solution](./searching/binary_search/questions/DivideChocolate.java) |
 | 1250 | [Check If It Is a Good Array](./arrays/questions/CheckIfItsGoodArray.java) | Hard 🔴 | Arrays | [Solution](./arrays/questions/CheckIfItsGoodArray.java) |
@@ -1197,6 +1345,7 @@ java questions.SearchInRotatedSortedArray
 | 1295 | [Find Numbers with Even Number of Digits](./searching/linear_search/questions/FindNumbersWithEvenNumberOfDigits.java) | Easy 🟢 | Searching | [Solution](./searching/linear_search/questions/FindNumbersWithEvenNumberOfDigits.java) |
 | 1304 | [Find Unique Integers Sum up to Zero](./arrays/questions/FindUniqueIntegersNSumToZero.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/FindUniqueIntegersNSumToZero.java) |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](./strings/questions/DecryptStringFromAlphabetToIntegerMapping.java) | Easy 🟢 | Strings | [Solution](./strings/questions/DecryptStringFromAlphabetToIntegerMapping.java) |
+| 1324 | [Print Words Vertically](./strings/questions/PrintWordsVertically.java) | Medium 🟡 | Strings | [Solution](./strings/questions/PrintWordsVertically.java) |
 | 1331 | [Rank Transform of an Array](./sorting/questions/RankTransformOfAnArray.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/RankTransformOfAnArray.java) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](./recursion/Easy/NumberOfStepsToReduceNumberToZero.java) | Easy 🟢 | Recursion | [Solution](./recursion/Easy/NumberOfStepsToReduceNumberToZero.java) |
 | 1346 | [Check If N and Its Double Exist](./searching/linear_search/questions/CheckIfNandItsDoubleExists.java) | Easy 🟢 | Searching | [Solution](./searching/linear_search/questions/CheckIfNandItsDoubleExists.java) |
@@ -1212,26 +1361,42 @@ java questions.SearchInRotatedSortedArray
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](./sorting/questions/AverageSalaryExcludingTheMinAndMaxSalary.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/AverageSalaryExcludingTheMinAndMaxSalary.java) |
 | 1502 | [Can Make Arithmetic Progression From Sequence](./sorting/questions/CanMakeArithmeticProgressionFromArray.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/CanMakeArithmeticProgressionFromArray.java) |
 | 1512 | [Number of Good Pairs](./arrays/questions/NumberOfGoodPairs.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/NumberOfGoodPairs.java) |
+| 1513 | [Number of Substrings With Only 1s](./strings/questions/NumberOfSubStringsWithOnly1s.java) | Medium 🟡 | Strings | [Solution](./strings/questions/NumberOfSubStringsWithOnly1s.java) |
 | 1528 | [Shuffle String](./strings/questions/ShuffleString.java) | Easy 🟢 | Strings | [Solution](./strings/questions/ShuffleString.java) |
 | 1539 | [Kth Missing Positive Number](./searching/binary_search/questions/KthMissingPositiveInteger.java) | Easy 🟢 | Searching | [Solution](./searching/binary_search/questions/KthMissingPositiveInteger.java) |
+| 1545 | [Find Kth Bit in Nth Binary String](./strings/questions/FindKthBitInNthString.java) | Medium 🟡 | Strings | [Solution](./strings/questions/FindKthBitInNthString.java) |
+| 1545 | [Find Kth Bit in Nth Binary String](./recursion/questions/FindKthBitInNthBinaryString.java) | Medium 🟡 | Recursion | [Solution](./recursion/questions/FindKthBitInNthBinaryString.java) |
 | 1572 | [Matrix Diagonal Sum](./arrays/questions/MatrixDiagonalSum.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/MatrixDiagonalSum.java) |
+| 1573 | [Number of Ways to Split a String](./strings/questions/NumberOfWaysToSplitAString.java) | Medium 🟡 | Strings | [Solution](./strings/questions/NumberOfWaysToSplitAString.java) |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](./arrays/questions/SpecialArrayWithXElementsGreaterEqualX.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/SpecialArrayWithXElementsGreaterEqualX.java) |
+| 1616 | [Split Two Strings to Make Palindrome](./strings/questions/SplitTwoStringsToMakeAPalindrome.java) | Medium 🟡 | Strings | [Solution](./strings/questions/SplitTwoStringsToMakeAPalindrome.java) |
 | 1636 | [Sort Array by Increasing Frequency](./sorting/questions/SortArrayByIncreasingFrequency.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/SortArrayByIncreasingFrequency.java) |
+| 1662 | [Check If Two String Arrays are Equivalent](./strings/questions/CheckIfTwoStringsAreEquivalent.java) | Easy 🟢 | Strings | [Solution](./strings/questions/CheckIfTwoStringsAreEquivalent.java) |
+| 1668 | [Maximum Repeating Substring](./strings/questions/MaximumRepeatingSubString.java) | Easy 🟢 | Strings | [Solution](./strings/questions/MaximumRepeatingSubString.java) |
 | 1672 | [Richest Customer Wealth](./searching/linear_search/questions/RichestCustomerWealth.java) | Easy 🟢 | Searching | [Solution](./searching/linear_search/questions/RichestCustomerWealth.java) |
 | 1678 | [Goal Parser Interpretation](./strings/questions/GoalParserInterpretation.java) | Easy 🟢 | Strings | [Solution](./strings/questions/GoalParserInterpretation.java) |
 | 1704 | [Determine if String Halves Are Alike](./strings/questions/DetermineIfStringHalvesAreAlike.java) | Easy 🟢 | Strings | [Solution](./strings/questions/DetermineIfStringHalvesAreAlike.java) |
 | 1732 | [Find the Highest Altitude](./arrays/questions/FindTheHighestAltitude.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/FindTheHighestAltitude.java) |
+| 1750 | [Minimum Length of String After Deleting Similar Ends](./strings/questions/MinimumLengthOfStringAfterDeletingSimilarEnds.java) | Medium 🟡 | Strings | [Solution](./strings/questions/MinimumLengthOfStringAfterDeletingSimilarEnds.java) |
+| 1759 | [Count Number of Homogenous Substrings](./strings/questions/CountNumberOfHomogenousSubstrings.java) | Medium 🟡 | Strings | [Solution](./strings/questions/CountNumberOfHomogenousSubstrings.java) |
 | 1768 | [Merge Strings Alternately](./strings/questions/MergeStringsAlternately.java) | Easy 🟢 | Strings | [Solution](./strings/questions/MergeStringsAlternately.java) |
 | 1773 | [Count Items Matching a Rule](./arrays/questions/CountItemsMatchingRule.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/CountItemsMatchingRule.java) |
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](./strings/questions/CheckIfBinaryStringHasAtMost1SegementOfOnes.java) | Easy 🟢 | Strings | [Solution](./strings/questions/CheckIfBinaryStringHasAtMost1SegementOfOnes.java) |
 | 1802 | [Maximum Value at a Given Index in a Bounded Array](./searching/binary_search/questions/MaximumValueAtAGivenIndexArray.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/MaximumValueAtAGivenIndexArray.java) |
+| 1813 | [Sentence Similarity III](./strings/questions/SentenceSimilarityII.java) | Medium 🟡 | Strings | [Solution](./strings/questions/SentenceSimilarityII.java) |
 | 1832 | [Check if the Sentence Is Pangram](./arrays/questions/CheckIfSentenceIsPangram.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/CheckIfSentenceIsPangram.java) |
 | 1838 | [Frequency of the Most Frequent Element](./searching/binary_search/questions/FrequencyOfMostFrequentElement.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/FrequencyOfMostFrequentElement.java) |
 | 1854 | [Maximum Population Year](./arrays/questions/MaximumPossibleYear.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/MaximumPossibleYear.java) |
 | 1859 | [Sorting the Sentence](./strings/questions/SortingTheSentence.java) | Easy 🟢 | Strings | [Solution](./strings/questions/SortingTheSentence.java) |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](./arrays/questions/DetermineWhetherRotationMatrix.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/DetermineWhetherRotationMatrix.java) |
+| 1898 | [Maximum Number of Removable Characters](./strings/questions/MaximumNumberOfRemovableCharacters.java) | Medium 🟡 | Strings | [Solution](./strings/questions/MaximumNumberOfRemovableCharacters.java) |
 | 1901 | [Find a Peak Element II](./searching/binary_search/questions/FindAPeakElementII.java) | Medium 🟡 | Searching | [Solution](./searching/binary_search/questions/FindAPeakElementII.java) |
 | 1920 | [Build Array from Permutation](./arrays/questions/BuildArrayFromPermutation.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/BuildArrayFromPermutation.java) |
 | 1929 | [Concatenation of Array](./arrays/questions/ConcatenationOfArray.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/ConcatenationOfArray.java) |
+| 1967 | [Number of Strings That Appear as Substrings in Word](./strings/questions/NumberOfStringsThatAppearsAsSubStringInWord.java) | Easy 🟢 | Strings | [Solution](./strings/questions/NumberOfStringsThatAppearsAsSubStringInWord.java) |
+| 1969 | [Minimum Non-Zero Product of the Array Elements](./recursion/questions/MinimumNonZeroProductOfArrayElements.java) | Medium 🟡 | Recursion | [Solution](./recursion/questions/MinimumNonZeroProductOfArrayElements.java) |
+| 2000 | [Reverse Prefix of Word](./strings/questions/ReversePrefixOfAWord.java) | Easy 🟢 | Strings | [Solution](./strings/questions/ReversePrefixOfAWord.java) |
 | 2089 | [Find Target Indices After Sorting Array](./sorting/questions/FindTargetIndicesAfterSortingArray.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/FindTargetIndicesAfterSortingArray.java) |
 | 2848 | [Points That Intersect With Cars](./sorting/questions/PointsThatIntersectWithCars.java) | Easy 🟢 | Sorting | [Solution](./sorting/questions/PointsThatIntersectWithCars.java) |
+| 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](./arrays/questions/LongestStrictlyIncreasingOrDecreasingArray.java) | Easy 🟢 | Arrays | [Solution](./arrays/questions/LongestStrictlyIncreasingOrDecreasingArray.java) |
+| 3403 | [Find the Lexicographically Largest String From the Box I](./strings/questions/FindTheLexicographicallyLargestStringFromBoxI.java) | Medium 🟡 | Strings | [Solution](./strings/questions/FindTheLexicographicallyLargestStringFromBoxI.java) |
